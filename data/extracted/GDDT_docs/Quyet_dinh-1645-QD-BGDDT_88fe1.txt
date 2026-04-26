@@ -1,0 +1,327 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+
+Số: 1645 /QĐ-BGDĐT Hà Nội, ngày20 tháng6_ năm 2025
+
+QUYẾT ĐỊNH
+Ban hành Danh mục cơ sở dữ liệu dùng chung, Danh mục dữ liệu mở của
+Bộ Giáo dục và Đào tạo
+
+BỘ TRƯỞNG BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+Căn cứ Luật Công nghệ thông tin số 67/2006/QH11 ngày 29/6/2006;
+Căn cứ Luật Dữ liệu số 60/2024/QH15 ngày 30/11/2024;
+
+Căn cứ Nghị định số 37/2025/NĐ- CP ngày 26/02/2025 của Chính phú quy định
+chức năng, nhiệm vụ, quyên hạn và cơ cấu tổ chức của Bộ Giáo dục và Đào tạo;
+
+Căn cứ Nghị định số 47/2020/NĐ-CP ngày 29/4/2020 cúa Chính phú về việc
+quản lý, kết nội và chia sẻ đữ liệu số của cơ quan nhà nước;
+
+Căn cứ Nghị định số 64/2007/NĐ-CP ngày 10/4/2001 của Chính phủ về ứng
+dụng công nghệ thông tin trong cơ quan nhà Hước;
+
+Căn cứ Nghị quyết số 17/NQ-CP ngày 07/3/2019 của Chính phú về một số
+nhiệm vụ, giải pháp trọng tâm phát triên chính phủ điện tử giai đoạn 2019-2020,
+định hướng đến 2029;
+
+Theo đề nghị của Cục trưởng Cục Khoa học, Công nghệ và Thông tin.
+
+QUYÉT ĐỊNH:
+
+Điều 1. Ban hành kèm theo Quyết định này Danh mục cơ sở đữ liệu dùng
+chung (Pø c D và Danh mục dữ liệu mở (Phụ lục Ï]) của Bộ Giáo dục và Đảo tạo.
+
+Điều 2. Tổ chức thực hiện
+
+1. Cục Khoa học, Công nghệ và Thông tin chủ trì về kỹ thuật, hướng dẫn
+các đơn vị có cơ sở dữ liệu trong Danh mục thực hiện cập nhật, quản lý, vận
+hành, khai thác, sử dụng hiệu quả cơ sở dữ liệu do đơn vị mình quản lý theo
+đúng các quy định hiện hành.
+
+2. Các đơn vị thuộc Bộ có cơ sở dữ liệu thuộc Danh mục có trách nhiệm chủ
+trì việc cập nhật, quán lý, khai thác, sử dụng và cung cấp dữ liệu theo quy định.
+
+Điều 3. Quyết định nảy có hiệu lực kê từ ngày kỹ.
+
+2
+
+Điều 4. Chánh Văn phòng, Vụ trưởng Vụ Kế hoạch - Tài chính, Cục trưởng
+Cục Khoa học, Công nghệ và Thông tin và Thủ trưởng các đơn vị thuộc Bộ chịu
+trách nhiệm thi hành Quyết định này... ø
+
+Nơi nhận:
+
+- Như điều 4;
+
+- Bộ trưởng (để b/c);
+
+- Các Thứ trưởng (đề chỉ đạo);
+
+- Bộ Khoa học và Công nghệ;
+
+- Các Ban tham mưu của Đảng ủy Bộ;
+- Công TTĐT Bộ GDĐT;
+
+- Các đơn vị thuộc Bộ;
+
+- Lưu: VT, KHCNTT.
+
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+Phụ lục I
+
+DANH MỤC CƠ SỞ DỮ LIỆU DÙNG CHUNG CỦA BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+(Kèm theo Quyết định số
+
+JQĐ-BGDĐT ngày /
+
+/2025 của Bộ Giáo dục và Đào tạo)
+
+„ Thời gian
+TT Tên CSDL Mô tả CSDL Cơ chê thu thập Đơn vị chủ trì | cập nhật Ghi chú
+dữ liệu
+Quản lý, lưu trữ thông tin mạng | _ Số hóa, chuẩn hóa dữ
+lưới cơ sở giáo dục, thông tin đội |, .. -.
+ngũ, thông tin người học, thôn liệu đã có;
+DU, GAUNG NN AGUỢI T0C, (IỆHE - Các cá nhân, đơn vị có
+‹ tin cơ sở vật chât và trang thiệt bị trách nhiêm câp nhật dữ | Cue Khoa hoe Cục KHCNTT
+1 CSDL vê Giáo | trong cơ sở giáo dục, thông tin liêu trên CSDI, l Công nghệ VÀ Thường chủ trì vận
+dục Mâm non | tài chính và các thông tin khác | Các cá nhân. đơn vì Thông tin xuyên hành hạ tâng
+theo quy định của Bộ và các cơ : : -= kỹ thuật
+
+quan quản lý có thẩm quyền
+phục vụ công tác quản lý nhà
+Trước về giáo dục mâm non.
+
+cập nhật dữ liệu khi có
+sự thay đôi.
+
+
+„ Thời gian
+TT ( TênCSDL Mô tả CSDL Cơ chế thuthập | Đơn vị chú trì | cập nhật Ghi chú
+ị dữ liệu
+Quản lý, lưu trữ thông tin mạng - SỐ hóa, chuân hóa dữ
+lưới cơ sở giáo dục, thông tin đội | liệu đã có; - "
+ngũ, thông tin người học, thông |” Các cá nhân, đơn vịco
+‹ tin cơ sở vật chât và trang thiệt bị trách nhiệm cập nhật dữ Cuc Khoa học Cục KHCNTT
+2 | CSDL về Giáo | trong cơ sở giáo dục, thông tin liệu trên CSDL; : | Công nghệ và Thường chú trì vận
+dục Phô thông | tài chính và các thông tin khác | ” Các cả nhân, đơn W Thông un xuyên hành hạ tâng
+theo quy định của Bộ và các cơ | C&P nhật dữ liệu khi có _ kỹ thuật
+quan quản lý có thẩm quyền | Sự thay đôi.
+phục vụ công tác quản lý nhà
+nước về giáo dục phô thông.
+Quản lý, lưu trữ thông tn mạng Ấ bở Ân" hán đã
+lưới cơ sở giáo dục, thông tin đội |; SO hóa, chuân hóa dữ
+NHA . ^ ˆ liệu đã có;
+ngũ, thông tin người học, thông - Các cá nhân. đơn vì có
+› ¬:„.. | tin cơ sở vật chât và trang thiết bị |. VAO SA Xà" Cục KHCNTT
+CSDL về Giáo ¬- hô .. | trách nhiệm cập nhật dữ | Cục Khoa học, hư hủ trì vâ
+3 ldục Giáo dục | OP cơ sở giáo dục, thông Ủn 1. trên CSDT; Công nghệ và | Ihường [ chủ mivận
+Thường xuyên tài chính và các thông tin khác |_ Các cá nhân. đơn vì Thông tin xuyên hành hạ tâng
+sxuy theo quy định của Bộ và các cơ l : Š kỹ thuật
+
+quan quản lý có thẩm quyền
+phục vụ công tác quản lý nhà
+Trước về giáo dục thường xuyên.
+
+cập nhật dữ liệu khi có
+sự thay đôi.
+
+
+Thời gian
+TT Tên CSDL Mô tả CSDL Cơ chế thu thập Đơn vị chủ trì | cập nhật Ghi chú
+dữ liệu
+Quản lý, lưu trữ thông tin mạng
+lưới cơ sở giáo dục, thông tin danh
+mục ngành đảo tạo, thông tin
+chương trình đào tạo, thông tin đội
+ngũ, thông tin người học, thông | - Số hóa, chuẩn hóa dữ
+tin khoa học công nghệ, thông tin liệu đã có;
+cơ sở vật chât và trang thiết bị | - Các cá nhân, đơn vị có Cuc Khoa h Cục KHCNTT
+„| CSDL về Giáo | trong cơ sở giáo dục, (hông tin tải | trách nhiệm cập nhật dữ Cô chê 9 | Thường chủ trì vận
+dục Đại học chính, thông tin hợp tác quôc tê, | liệu trên CSDL; Ong RÿEH€V3 | xuyên hành hạ tằng
+hợp tác với doanh nghiệp, các |- Các cá nhân, đơn vị| Thông tin kỹ thuật
+thông tin liên quan đến đảm bảo | cập nhật dữ liệu khi có I
+chât lượng giáo dục đại học, các | sự thay đổi.
+thông tm khác theo quy định của
+Bộ và các cơ quan quản lý có
+thâm quyền phục vụ công tác
+quản lý về giáo dục đại học.
+- Tổ chức kiêm định cập
+nhật kết quả;
+CSDL về kiểm | Quản lý, lưu trữ thông tin về tổ | - Cơ sở giáo dục gửi báo Khicó | Cục KHCNTT
+5 định chất lượng | chức kiểm định, chương cáo tự đánh giá, kế hoạch Cục Quản lý thay đối chủ trì vận
+giáo dục đại | trình/cơ sở được kiêm định, kết | cải tiên; chât lượng hoặc hàng hành hạ tâng
+học quả kiểm định, kiểm định viên... | - Cục Quản lý chất hrợng quý kỹ thuật
+tổng hợp, xác minh
+thông trn.
+CSDL về Giáo . lý, lưu trữ thông n mạng | CụcKhoahọc, Cục KHCNTT
+6 ldục nghễ tưới cơ sở giáo dục nghê nghiệp; - Số hóa, chuân hóa dữ Công nghệ và Thường chủ trì vận
+nehiê thông tin danh mục ngành đào | liệu đã có; Thông tin xuyên hành hạ tâng
+köNGG tạo; thông tin chương trình đảo l kỹ thuật
+
+
+Thời gian
+TT Tên CSDL Mô tả CSDL Cơ chế thu thập Đơn vị chủ trì | cập nhật Ghi chú
+dữ liệu
+tạo; thông tin nhà giáo, cán bộ | - Các cá nhân, đơn vị có
+quản lý trong cơ sở giáo dục, | trách nhiệm cập nhật dữ
+nghề nghiệp; thông tin người | liệu trên CSDL;
+học; thông tin khoa học công |- Các cá nhân, đơn vị
+nnphệ; thông tin cơ sở vật chất và cập nhật dữ liệu khi có
+trang thiết bị trong cơ sở giáo | sự thay đổi.
+dục nghề nghiệp; thông tin tài
+chính; thông tin hợp tác quốc tế,
+hợp tác với doanh nghiệp; các
+thông tin khác theo quy định của
+Bộ và các cơ quan quản lý có
+thâm quyền phục vụ công tác
+quản lý về giáo dục nghề nghiệp.
+- Quản ly, lưu trữ thông tin của
+mỗi cán bộ, công chức, viên chức
+và người lao động (thuộc cơ quan | - Số hóa, chuẩn hóa đữ
+Bộ) trong quá trình công tác từ | liệu đã có;
+
+CSDL về cán khi bắt đầu vào cơ quan cho đến | - Các cá nhân, đơn vị có Cục KHCNTT
+Ax“ „ nghỉ hưu; trách nhiệm cập nhật dữ "= ` Sun CA
+bộ, công chức, z , ty QLÃ à VÀ QU^ _ Vụ Tô chức Thường chủ trì vận
+
+7 v2 „ - | - Hồ trợ các đơn vị có thâm quyên | liệu trên CSDL; ta ˆ ` H
+viên chức và 3 đc sáo Độ XÃ Am. mwwe . Cán bộ xuyên hành hạ tâng
+xã R quản lý cán bộ công chức, viên | - Các cá nhân, đơn vị ma
+người lao động kỹ thuật
+
+chức quản lý hồ sơ nhân sự hiệu
+quả, giảm chi phí, thời gian, công
+sức, thuận tiện trong việc tra cứu
+tìm kiếm hồ sơ cán bộ công chức,
+viên chức và người lao động.
+
+cập nhật dữ liệu khi có
+sự thay đôi.
+
+
+Thời gian
+TT Tên CSDL Mô tả CSDL Cơ chế thu thập Đơn vị chủ trì | cập nhật Ghi chú
+dữ liệu
+- Học bạ số được tạo lập
+từ các cơ sở giáo dục và
+CSDL học bạ CSp L phục - công tác lưu tữ, cuục thụ Đhập về CSDL Cục Khoa h M“ Thường Dự kiến hoàn
+8 R quản lý nhà nước về Giáo dục | tập trung; Công nghệ và R `
+» Phổ thông liên quan tới học bạ |- Cơ sở giáo dục thực Thông tin xuyen thành 2026
+hiện ký sô đê đảm bảo
+tính pháp lý của dữ liệu.
+- Văn bằng số, chứng
+chỉ số được tạo lập từ
+các đơn vị có chức Tiãng
+CSDL văn bằng | CŠDE phục vụ công tác lưu trữ, vụ ` nn SỐ ch ˆ Cục Khoa học, | Thường | Dự kiến hoàn
+9 số, chứng chỉ số | đuản lý nhà nước vê văn băng và HQ : ẬP Công nghệ và xuyên thành 2026
+l l chứng chỉ CSDL tập trung; Thông tin y
+
+- Cơ sở giáo dục thực
+hiện ký sô đề đảm bảo
+tính pháp lý của dữ liệu.
+
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+(Kèm theo Quyết định số
+
+Phụ lục II
+
+DANH MỤC DỮ LIỆU MỞ CỦA BỘ GIÁO DỤC VÀ ĐÀO TẠO
+
+/QÐ-BGDĐT ngày — /
+
+/2025 của Bộ Giáo dục và Đảo tạo)
+
+- Đơn vi chú Thời gian
+TT | Tên dữliệu Mô tả Cơ chế thu thập dữ liệu | “PP V‡€PÉM Í cân nhật Ghi chú
+tri cung cầp "
+dữ liệu
+Cung cấp thông tin công khai về | - Chuẩn hóa dữ liệu đã có;
+l __| Các cơ sở giáo dục mâm nọn, giáo |- Tiệp tục rà soát, cập nhật Cục Khoa Cục KHCNTT
+Thông tĩn | dục phô thông, giáo dục thường | dữ liệu trong quá trình vận R ` Sun CA
+kẻ R s. l clra học, Công Thường chủ trì vận
+lÏ mạng lưới cơ | xuyên, giáo dục đại học trong cả | hành CSDL; A LẠ R ` š
+Ly , H Am ¬ z . R nghệ và xuyên hành hạ tâng
+Sở giáo dục Trước (Tên cơ sở giáo dục, Địa chỉ, | - Các cơ sở giáo dục cập Thông tin kỹ thuật
+Số điện thoại, Website, Loại hình nhật dữ liệu khi có sự thay Š ymR
+Cơ SỞ giáo dục...) đôi.
+Cung cấp thông tin công khai về - Số hóa, chuẩn hóa dữ liệu |_ Cục Khoa
+luận án trình độ tiên sĩ, bao gôm | đã có; học, Công Cục KHCNTT
+2 | Thông tin luận thông tin về tác giả, lĩnh vực, cơ | - Tiếp tục cập nhật dữ liệu _ nghệ và Thường chủ trì vận
+văn, luận án _ | Sở đảo tạo, thời gian đảo tạo, tóm | trong quá trình vận hành | Thông tn xuyên hành hạ tầng
+tất nội dung, nội dung của luận án | CSDILL. kỹ thuật
+trinh độ tiên sĩ.
+Cung cấp học liệu số trực tuyến mm 3 1z. 2x: |: Cục Khoa
+cho trẻ em, học sinh, giáo viên, : Sô hóa, chuân hóa đữ liệu học, Công Cục KHCNTT
+. ¬¬a..... ` 3z a4: | đã có; Avyà ` am.
+Thông tin học | cán bộ quản lý giáo dục và các đôi .4 ˆ 2x 15173 nghệ và Thường chủ trì vận
+3 tẠ x* À -.... |~ TIẾP tục cập nhật dữ liệu H . R ` H
+liệu sô tượng khác có nhu câu khai thác, m» A_ bà Thông tin xuyên hành hạ tâng
+l à 2. | trong quá trinh vận hành mà.
+sử dụng phục vụ nhu câu học tập kỹ thuật
+
+suốt đời; phục vụ nhu cầu ứng
+
+CSDL.
+
+
+‹ Đơn vị chủ | Thời gian
+TT Tên dữ liệu Mô tả Cơ chê thu thập dữ liệu ` ‡ CẠN cập nhật Ghi chú
+trì cung cầp mm
+dữ liệu
+dụng công nghệ số trong đổi mới
+nội dung, phương pháp dạy, học,
+kiêm tra đánh giá.
+Cung cấp các thông tin cộng khai
+` .._› | về kết quả kiêm định chât lượng ¬ TU 2 uy y2
+Thông. tin về giáo dục, kết quả kiểm định |~ Sô hóa, chuân hóa dữ liệu
+kiêm định chât chương trình đào tạo, thông tin đã có; ¬ Sun ¬ l Cục KHCNTT
+Ạ lượng Giáo | bảo đảm chất lượng của các cơ sở | ~. Các đơn vị cập nhật dữ Cục Quản lý Thường chủ trì vận
+dục đại học, giáo dục đại học, cơ sở giáo dục liệu trong quá trình vận | chât lượng xuyên hành hạ tầng
+Giáo dục nghê nghề nghiệp, thông tin của tổ | hành CSDL. kỹ thuật
+nghiệp chức kiểm định, thông tin kiểm
+định viên..
+Cung dọc các thông tin công khai „
+Thông tin về đánh giá, xếp hạng của các cơ - Sô hóa, chuân hóa dữ liệu Cục KHCNTT
+R , | Sở ø1láo dục đại học: Tô chức và | đã có; sự ` "a
+5 Chuân cơ sở TỐ vu AI lạ mm" . AI -„ z~ | Vụ Giáo dục | _ Thường chủ trì vận
+sự . | quản trị, Giảng viên, Cơ sở vật | - Các đơn vị cập nhật dữ . ˆ ` H
+giáo dục đại hất Tài chính. Tuyển sinh và | Hê ¡ trình vâ Đại học xuyên hành hạ tâng
+học chất, lài chính, Tuyên sinh và | liệu trong quả trình vận kỹ thuật
+ì đào tạo, Nghin cửu và đôi mới | hành CSDL.. Lng
+sáng tạo..
+Cung cấp thông tin thống kê công
+Thô ._ | khai về giáo dục mâm non, giáo | - Số hóa, chuẩn hóa đữ liệu
+Thôn kế lĩnh dục: phô thông, giáo “dục nghề đã có; cc bàng
+6 la) đạc | nghiệp và giáo dục thường xuyên, | - Các đơn vị cập nhật dữ 9© ~ĐNŠ Í Định kỳ
+và Đà JẠO GN€ ' piáo dục đại học và các thông tỉn | liệu trong quá trình vận nghệ và
+và Đảo tạo thông kê khác trong lĩnh vực Giáo Thông tin
+
+dục và Đảo tạo.
+
+hành CSDL..
+
+
+10
+
+; xx | Thời gian
+TT | Tên dữliệu Mô tả Cơ chế thu thập dữ liệu | P#1 vì chủ | cay nhật Ghi chú
+trì cung cầp mm
+dữ liệu
+- Chuẩn hóa dữ liệu đã có;
+Thông In các Cung cấp thông tin công khai về | ” Tiệp tục Tả soái, cập nhật . ` Cục KHCNTT
+tô chức kinh| 2 5 ,.,. : dữ liệu trong quá trình vận | Cục Hợp tác Thường chủ trì vận
+7 . các tô chức kinh doanh dịch vụ tư |_ Hà R ` H
+
+doanh dịch vụ vấn du học hành CSDL; quôc tê xuyên hành hạ tâng
+tư vân du học - Cập nhật dữ liệu khi có kỹ thuật
+
+sự thay đôi.
+
+

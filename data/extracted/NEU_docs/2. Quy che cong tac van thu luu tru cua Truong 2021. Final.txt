@@ -1,0 +1,674 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+TRƯỜNG ĐẠI HỌC Độc lập - Tự do - Hạnh phúc
+KINH TẾ QUỐC DÂN
+Số: 2269/QĐ-ĐHKTQD Hà Nội, ngày 12 tháng 11 [mười một] năm 2021
+QUYẾT ĐỊNH
+
+Về việc ban hành Quy chế công tác Văn thư, lưu trữ
+của Trường Đại học Kinh tế Quốc dân
+
+HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC KINH TẾ QUỐC DÂN
+
+Căn cứ Luật lưu trữ ngày 11/11/2011;
+
+Căn cứ Luật Giáo dục [đục → dục] đại học ngày 18/6/2012 và Luật sửa đổi [đối → đổi], bổ sung [bố Sung → bổ sung] một số điều của Luật Giáo dục đại học ngày 19/11/2018;
+
+Căn cứ Nghị định số 99/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về quản lý và sử dụng con dấu;
+
+Căn cứ Nghị định số 99/2019/NĐ-CP ngày 30/12/2019 của Chính phủ [phú → phủ] về quy định chi tiết [chỉ tiết → chi tiết] và hướng dẫn thi hành [thị hành → thi hành] một số điều của Luật [luật → Luật] sửa đổi [đối → đổi], bổ sung [bổ Sung → bổ sung] một số điều [điểu → điều] của Luật Giáo dục đại học;
+
+Căn cứ Nghị định số 30/2020/NĐ-CP ngày 05/3/2020 của Chính phủ về công tác văn thư;
+
+Căn cứ Thông tư [Thông tế → Thông tư] số 27/2016/TT-BGDĐT ngày 30/12/2016 của Bộ Giáo dục và Đào tạo về việc quy định thời hạn bảo quản tài liệu chuyên môn nghiệp vụ của ngành Giáo dục;
+
+Căn cứ Quy chế Tổ chức [TỔ chức → Tổ chức] và Hoạt động của Trường [Truờng → Trường] Đại học Kinh tế Quốc dân ban hành kèm theo Nghị quyết số 09/NQ-ĐHKTQD-HĐT [ĐHKTOD → ĐHKTQD] ngày 09/3/2021 của Chủ tịch Hội đồng Trường Đại học Kinh tế [kinh tễ → Kinh tế] Quốc dân;
+
+Theo đề nghị của Trưởng phòng Tổng hợp.
+
+QUYẾT ĐỊNH:
+
+Điều 1. Ban hành kèm theo Quyết định này Quy chế công tác Văn thư, lưu trữ của Trường Đại học Kinh tế Quốc dân.
+
+Điều 2. Quyết định này có hiệu lực kể từ ngày ký ban hành.
+
+Điều 3. Ông (bà) Trưởng các đơn vị thuộc, trực thuộc Trường chịu trách nhiệm thi hành Quyết định này./.
+
+Nơi nhận: HIỆU TRƯỞNG
+
+ĐU, HĐT, BGH (để chỉ đạo thực hiện [t/h]);
+Như Điều 3;
+Lưu: VT, TH.
+(đã ký)
+PGS.TS. Phạm Hồng Chương
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TRƯỜNG ĐẠI HỌC Độc lập - Tự do - Hạnh phúc
+KINH TẾ QUỐC DÂN
+
+QUY CHẾ
+Công tác Văn thư, lưu trữ của Trường Đại học Kinh tế Quốc dân
+*(Kèm theo Quyết định số: 2269/QĐ-ĐHKTQD, ngày 12 tháng 11 năm 2021 của Hiệu trưởng Trường [Trưởng → Trường] Đại học Kinh tế Quốc dân)*
+
+Chương I
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi áp dụng và đối tượng áp dụng
+
+Quy chế này quy định về công tác văn thư lưu trữ và quản lý công tác văn thư lưu trữ của Trường Đại học Kinh tế Quốc dân (sau đây gọi tắt là Trường). Công tác văn thư lưu trữ quy định tại Quy chế này bao gồm [bảo gồm → bao gồm]: Soạn thảo, ký ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp hồ sơ [hỗ sơ → hồ sơ], tài liệu vào Lưu trữ của Trường; quản lý và sử dụng con dấu, thiết bị lưu khóa bí mật trong công tác văn thư, lưu trữ của Trường.
+Quy chế này áp dụng thống nhất trong các đơn vị, tổ chức thuộc, trực thuộc Trường (sau đây được gọi tắt là các đơn vị trong Trường) và các tập thể, cá nhân liên quan.
+Điều 2. Giải thích từ ngữ
+
+Trong Quy chế này, những từ ngữ dưới [đưới → dưới] đây được hiểu như sau:
+
+“Văn bản” là thông tin thành văn được truyền đạt bằng ngôn ngữ hoặc ký hiệu, hình thành trong hoạt động của Trường và được trình bày đúng thể thức, kỹ thuật theo quy định.
+“Văn bản hành chính” là văn bản hình thành trong quá trình chỉ đạo, điều hành, giải quyết công việc của Trường.
+“Văn bản điện tử” là văn bản dưới dạng thông điệp dữ liệu được tạo lập hoặc được số hóa từ văn bản giấy và trình bày đúng thể thức, kỹ thuật, định dạng theo quy định.
+“Văn bản đi” là tất cả [tắt cả → tất cả] các loại văn bản do [đo → do] Trường ban hành.
+“Văn bản đến” là tất cả các loại văn bản do [đo → do] Trường nhận được từ cơ quan, tổ chức, cá nhân khác gửi đến.
+“Bản thảo văn bản” là bản được viết hoặc đánh máy hoặc tạo lập bằng phương tiện điện tử hình thành trong quá trình soạn thảo một văn bản của Trường.
+“Bản gốc [Bán gốc → Bản gốc] văn bản” là bản [bán → bản] hoàn chỉnh về nội dung, thể thức văn bản được người có thẩm quyền [thâm quyền → thẩm quyền] trực tiếp ký trên văn bản giấy hoặc ký số trên văn bản điện tử.
+“Bản chính [Bán chính → Bản chính] văn bản giấy” là bản hoàn chỉnh về nội dung, thể thức văn bản được tạo từ bản có chữ ký trực tiếp của người có thẩm quyền.
+“Bản sao y [Bán sao y → Bản sao y]” là bản sao đầy đủ, chính xác nội dung của bản gốc hoặc bản chính văn bản, được trình bày theo thể [thê → thể] thức và kỹ thuật quy định.
+“Bản sao lục [Bán sao lục → Bản sao lục]” là bản sao đầy đủ, chính xác nội dung của bản sao y, được trình bày theo thể thức và kỹ thuật quy định.
+“Bản trích sao [Bán trích sao → Bản trích sao]” là bản sao chính xác phần nội dung của bản gốc hoặc phần nội dung của bản chính văn bản cần trích sao, được trình bày theo thể thức và kỹ thuật quy định.
+“Danh mục hồ sơ” là bảng kê có hệ thống những hồ sơ dự kiến được lập trong năm của Trường.
+“Hồ sơ” là tập hợp các văn bản, tài liệu có liên quan với nhau về một vấn đề [vấn để → vấn đề], một sự việc, một đối tượng cụ thể hoặc có đặc điểm chung, hình thành trong quá trình theo dõi, giải quyết công việc thuộc phạm vi, chức năng, nhiệm vụ của các đơn vị, cá nhân trong Trường.
+“Lập hồ sơ” là việc tập hợp, sắp xếp văn bản, tài liệu [tải liệu → tài liệu] hình thành trong quá trình theo dõi, giải quyết công việc của các đơn vị, cá nhân trong Trường theo nguyên tắc và phương pháp nhất định.
+“Hệ thống quản lý tài liệu điện tử” là Hệ thống thông tin được xây dựng với chức năng chính để [đề → để] thực hiện việc tin học hóa công tác soạn thảo, ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp lưu hồ sơ [hỗ sơ → hồ sơ], tài liệu vào Lưu trữ Trường trên môi trường mạng (sau đây gọi chung là Hệ thống)
+“Văn thư Trường” là bộ phận thực hiện một số nhiệm vụ công tác văn thư của Trường thuộc phòng Tổng hợp.
+“Lưu trữ Trường” là bộ phận thực hiện một số nhiệm vụ công tác lưu trữ của Trường thuộc phòng Tổng hợp.
+Điều 3. Nguyên tắc, yêu cầu quản lý công tác văn thư lưu trữ.
+
+Nguyên tắc
+Công tác văn thư, lưu trữ được thực hiện thống nhất theo quy định của pháp luật và Quy chế của Trường.
+
+Yêu cầu:
+a) Văn bản của các đơn vị trong Trường phải được soạn thảo và ban hành đúng thẩm quyền [thấm quyền → thẩm quyền], trình tự, thủ tục, hình thức, thể [thê → thể] thức và kỹ thuật trình bày theo quy định của pháp luật: Đối với Quy định, Quy chế được thực hiện theo quy định về Quy trình ban hành quy chế, quy định; đối với văn bản hành chính được thực hiện [thực biện → thực hiện] theo quy định tại Chương II Quy chế này.
+
+b) Tất cả [Tắt cả → Tất cả] văn bản đi, văn bản đến của Trường phải được quản lý tập trung tại Văn thư Trường để [đề → để] làm thủ tục tiếp nhận, đăng ký, trừ những loại văn bản được đăng ký riêng theo quy định của pháp luật.
+
+c) Văn bản đi, văn bản đến thuộc ngày nào phải được đăng ký, phát hành hoặc chuyển giao trong ngày, chậm nhất là trong ngày làm việc tiếp theo. Văn bản đến có các mức độ khẩn “Hỏa tốc”, “Thượng khẩn”, “Khẩn” (sau đây gọi chung là văn bản khẩn) phải được đăng ký, trình và chuyển giao ngay sau khi nhận được.
+
+d) Văn bản phải được theo dõi, cập nhật trạng thái gửi, nhận, xử lý.
+
+đ) Người được giao giải quyết, theo dõi [theo đõi → theo dõi] công việc của các đơn vị trong Trường có trách nhiệm lập hồ sơ về công việc được giao và nộp lưu hồ sơ, tài liệu vào Lưu trữ Trường.
+
+e) Con dấu, thiết bị lưu khóa bí mật của Trường phải được quản lý, sử dụng theo quy định của pháp luật.
+
+g) Hệ thống phải đáp ứng các quy định tại Phụ lục VI Quy chế này và các quy định của pháp luật có liên quan.
+
+Điều 4. Giá trị pháp lý của văn bản [bán → bản] điện tử
+
+Văn bản điện tử được ký số [ký sẽ → ký số] bởi người có thẩm quyền [thấm quyền → thẩm quyền] và ký số của Trường theo quy định của pháp luật có giá trị pháp lý như bản gốc văn bản giấy.
+Chữ ký số trên văn bản điện tử phải đáp ứng đầy đủ các quy định của pháp luật.
+Chương II
+SOẠN THẢO, KÝ BAN HÀNH VĂN BẢN HÀNH CHÍNH
+Mục 1
+THỂ THỨC, KỸ THUẬT TRÌNH BÀY VĂN BẢN HÀNH CHÍNH
+
+Điều 5. Các loại văn bản hành chính
+
+Văn bản hành chính gồm các loại văn bản sau: Nghị quyết (cá biệt), quyết định (cá biệt), quy chế, quy định, nội quy, thông cáo, thông báo, hướng dẫn, chương trình, kế hoạch, phương án, đề án [để án → đề án], dự án [đự án → dự án], báo cáo, biên bản, tờ trình, hợp đồng, công văn, bản ghi nhớ, bản thỏa thuận, giấy ủy quyền, giấy mời, giấy giới thiệu, giấy nghỉ phép [nghỉ nghép → nghỉ phép], phiếu gửi, phiếu chuyển [chuyên → chuyển], phiếu báo.
+
+Điều 6. Thể thức văn bản
+
+Thể thức văn bản là tập hợp các thành phần [thành phản → thành phần] cấu thành văn bản, bao gồm những phần chính áp dụng đối [đổi → đối] với tất cả các loại văn bản và các thành phần bổ sung [bố sung → bổ sung] trong những trường hợp cụ thể hoặc đối với một số loại văn bản nhất định.
+Thể thức văn bản hành chính bao gồm các thành phần chính
+a) Quốc hiệu và Tiêu ngữ
+
+b) Tên cơ quan, đơn vị, tổ chức ban hành văn bản.
+
+c) Số, ký hiệu của văn bản.
+
+d) Địa danh và thời gian ban hành văn bản.
+
+đ) Tên loại và trích yếu nội dung của [ban hành → của] văn bản.
+
+e) Nội dung văn bản.
+
+g) Chức vụ, họ tên và chữ ký của người có thẩm quyền [thâm quyền → thẩm quyền].
+
+h) Dấu, chữ ký số của cơ quan, đơn vị.
+
+i) Nơi nhận.
+
+Ngoài các thành phần quy định tại khoản 2 Điều này, văn bản có thể bổ sung các thành phần khác
+a) Phụ lục.
+
+b) Dấu chỉ độ mật, mức độ khẩn, các chỉ dẫn về phạm vi lưu hành.
+
+c) Ký hiệu người soạn thảo văn bản và số lượng bản phát hành.
+
+d) Địa chỉ Trường, đơn vị; thư điện tử; trang thông tin điện tử; số điện thoại; số fax.
+
+Thể thức văn bản hành chính được thực hiện theo quy định tại Phụ lục I Quy chế này.
+Điều 7. Kỹ thuật trình bày văn bản
+
+Kỹ thuật trình bày văn bản bao gồm: Khổ giấy, kiểu trình bày, định lề trang văn bản, phông chữ, cỡ chữ, kiểu chữ, vị trí trình bày các thành phần thể thức, số trang văn bản. Kỹ thuật trình bày văn bản hành chính được thực hiện theo quy định tại Phụ lục I Quy chế này. Viết hoa trong văn bản hành chính được thực hiện theo quy định tại Phụ lục II Quy chế này. Chữ viết tắt tên loại văn bản hành chính, tên đơn vị được thực hiện theo quy định tại Phụ lục III [II → III] Quy chế này.
+
+Mục 2
+SOẠN THẢO VÀ KÝ BAN HÀNH VĂN BẢN HÀNH CHÍNH
+
+Điều 8. Soạn thảo văn bản
+
+Căn cứ chức năng, nhiệm vụ, quyền hạn và mục đích, nội dung của văn bản cần soạn thảo, Lãnh đạo trường giao cho đơn vị hoặc cá nhân chủ trì soạn thảo văn bản.
+Đơn vị hoặc cá nhân được giao chủ trì soạn thảo văn bản thực hiện các công việc: Xác định tên loại, nội dung và độ mật, mức độ khẩn của văn bản cần soạn thảo; thu thập, xử lý thông tin có liên quan; soạn thảo văn bản đúng hình thức, thể thức và kỹ thuật trình bày.
+Đối với văn bản điện tử, cá nhân được giao nhiệm vụ soạn thảo văn bản ngoài việc thực hiện các nội dung nêu trên phải chuyển bản thảo văn bản, tài liệu kèm theo (nếu có) vào Hệ thống và cập nhật các thông tin cần thiết.
+
+Trường hợp cần sửa đổi [đối → đổi], bổ sung [bễ sung → bổ sung] bản thảo văn bản, người có thẩm quyền [thâm quyền → thẩm quyền] cho ý kiến vào bản thảo văn bản hoặc trên Hệ thống [thông → thống], chuyển [chuyên → chuyển] lại bản thảo [tháo → thảo] văn bản đến lãnh đạo đơn vị chủ trì soạn thảo văn bản để chuyển lại cho cá nhân được giao nhiệm vụ soạn thảo văn bản.
+Cá nhân được giao nhiệm vụ soạn thảo văn bản chịu trách nhiệm trước người đứng đầu đơn vị và trước pháp luật về bản thảo văn bản trong phạm vi chức trách, nhiệm vụ được giao.
+Điều 9. Duyệt bản thảo [tháo → thảo] văn bản
+
+Bản thảo văn bản phải do [đo → do] người có thẩm quyền [thầm quyền → thẩm quyền] ký văn bản duyệt.
+Trường hợp bản thảo văn bản đã được phê duyệt nhưng cần sửa chữa, bổ sung thì phải trình người có thẩm quyền [thâm quyền → thẩm quyền] ký xem xét quyết định.
+Điều 10. Kiểm tra [Kiếm tra → Kiểm tra] văn bản trước khi ký ban hành
+
+Người đứng đầu đơn vị soạn thảo văn bản phải kiểm tra và chịu trách nhiệm trước Hiệu trưởng và trước pháp luật về nội dung [nội đung → nội dung] văn bản.
+Người được giao trách nhiệm kiểm tra thể thức, kỹ thuật trình bày văn bản phải kiểm tra và chịu trách nhiệm trước Hiệu trưởng và trước pháp luật về thể thức, kỹ thuật trình bày văn bản.
+Điều 11. Trách nhiệm và thẩm quyền ký ban hành văn bản
+
+Hiệu trưởng ký các văn bản gửi ra ngoài trường và các văn bản về những vấn đề [vẫn để → vấn đề] trọng yếu của Trường. Trong một số trường hợp cụ thể và cần thiết, Hiệu trưởng có thể ủy quyền cho Phó Hiệu trưởng [trướng → trưởng] ký thay Hiệu trưởng các văn bản nói trên.
+Chủ tịch Hội đồng trường ký các văn bản trong phạm vi thẩm quyền [thâm quyền → thẩm quyền] của Chủ tịch Hội đồng trường.
+Phó Hiệu trưởng ký thay Hiệu trưởng ban hành các văn bản thuộc phạm vi lĩnh vực đã được Hiệu trưởng phân công phụ trách.
+Trong một số trường hợp cần thiết, Hiệu trưởng có thể ủy quyền cho một số Trưởng đơn vị ký thừa ủy quyền văn bản. Việc giao ký thừa ủy quyền phải được quy định bằng văn bản và giới hạn trong một thời gian nhất định. Người được ký thừa ủy quyền không được ủy quyền lại cho người khác ký.
+Hiệu trưởng ủy nhiệm cho Trưởng đơn vị ký thừa lệnh một số văn bản hành chính về chuyên môn, nghiệp vụ theo chức năng, nhiệm vụ và phạm vi được phân công. Việc ủy nhiệm, phân cấp thẩm quyền [thắm quyền → thẩm quyền] ký văn bản thừa lệnh và đóng dấu của Trường do [đo → do] Hiệu trưởng quyết định.
+Trưởng các đơn vị được ký thừa lệnh, ban hành văn bản hành chính về chuyên môn, nghiệp vụ được ủy nhiệm cho cấp phó ký thay trong các trường hợp cần thiết theo chức năng, nhiệm vụ được giao.
+Người ký ban hành văn bản phải chịu trách nhiệm trước pháp luật về nội dung, trình tự, thể thức và kỹ thuật trình bày của văn bản đã ban hành.
+Đối với văn bản giấy, khi ký văn bản dùng bút có mực màu xanh, không dùng các loại mực dễ phai.
+Đối với văn bản điện tử, người có thẩm quyền [thâm quyền → thẩm quyền] thực hiện ký số. Vị trí, hình ảnh chữ ký số theo quy định tại Phụ lục I Quy chế này.
+Chương III
+QUẢN LÝ VĂN BẢN
+Mục 1
+QUẢN LÝ VĂN BẢN ĐI
+
+Điều 12. Trình tự quản lý văn bản đi
+
+Cấp số, thời gian ban hành văn bản.
+Đăng ký văn bản đi.
+Nhân bản, đóng dấu cơ quan, tổ chức, dấu chỉ độ mật, mức độ khẩn (đối với văn bản giấy); ký số của Trường (đối với văn bản điện tử).
+Phát hành và theo dõi việc chuyển [chuyên → chuyển] phát văn bản đi.
+Lưu văn bản đi.
+Điều 13. Cấp số, thời gian ban hành văn bản
+
+Số và thời gian ban hành văn bản được lấy theo thứ tự và trình tự thời gian ban hành văn bản của Trường trong năm (bắt đầu liên tiếp từ số 01 vào ngày 01 tháng 01 và kết thúc vào ngày 31 tháng 12 hàng [hảng → hàng] năm), số và ký hiệu văn bản của Trường là duy nhất trong một năm, thống nhất giữa văn bản giấy và văn bản điện tử.
+a) Số của văn bản là số thứ tự đăng ký văn bản tại Văn thư Trường. Số của văn bản được ghi [ghỉ → ghi] bằng chữ số Ả-rập, bắt đầu từ số 01 vào ngày làm việc đầu tiên của năm dương lịch và kết thúc là số cuối cùng của ngày [ngảy → ngày] làm việc cuối cùng của năm dương lịch. Với những số nhỏ hơn 10 phải ghi [ghí → ghi] thêm số 0 phía trước.
+
+b) Ký hiệu của văn bản bao gồm chữ viết tắt tên loại văn bản (theo bảng chữ viết tắt tên loại văn bản và bản sao tại Phần I Phụ lục III Quy chế này) và chữ viết tắt tên Trường (ĐHKTQD). Đối với công văn, ký hiệu bao gồm chữ viết tắt tên Trường (ĐHKTQD) và chữ viết tắt tên đơn vị chủ trì soạn thảo công văn (chữ viết tắt tên các đơn vị trong Trường tại Phần II Phụ lục III [II → III] Quy chế này).
+
+c) Số, ký hiệu của văn bản được trình bày tại ô số 3 phụ lục I [II → I] Quy chế này.
+
+Đối với văn bản giấy, việc cấp số, thời gian ban hành được thực hiện sau khi có chữ ký của người có thẩm quyền [thâm quyền → thẩm quyền], chậm nhất là trong ngày làm việc tiếp theo. Văn bản mật được cấp hệ thống [thông → thống] số riêng.
+Đối với văn bản điện tử, việc cấp số, thời gian ban hành được thực hiện bằng chức năng của Hệ thống [thông → thống].
+Điều 14. Đăng ký văn bản đi
+
+Việc đăng ký văn bản bảo đảm đầy đủ [đây đủ → đầy đủ], chính xác các thông tin cần thiết của văn bản đi.
+Đăng ký văn bản
+Văn bản được đăng ký bằng sổ [số → sổ] hoặc bằng Hệ thống.
+
+a) Đăng ký văn bản bằng sổ [số → sổ]
+
+Văn thư Trường đăng ký văn bản vào sổ [số → sổ] đăng ký văn bản đi. Mẫu sổ [số → sổ] đăng ký văn bản đi theo quy định tại Phụ lục IV Quy chế này.
+
+b) Đăng ký văn bản bằng Hệ thống
+
+Văn bản được đăng ký bằng Hệ thống phải được in ra giấy đầy đủ các trường thông tin theo mẫu sổ [số → sổ] đăng ký văn bản đi, đóng số để quản lý.
+
+Văn bản mật được đăng ký theo quy định của pháp luật về bảo vệ bí mật nhà nước và Nội quy bảo vệ bí mật nhà nước của Trường.
+Điều 15. Nhân bản, đóng dấu, ký số của Trường và dấu chỉ độ mật, mức độ khẩn
+
+Nhân bản, đóng dấu của Trường và dấu chỉ độ mật, mức độ khẩn đối với văn bản giấy
+a) Văn bản đi được nhân bản [bán → bản] theo đúng số lượng được xác định ở phần nơi nhận của văn bản.
+
+b) Việc đóng dấu Trường và dấu [dâu → dấu] chỉ độ mật, mức độ khẩn, được thực hiện theo quy định tại Phụ lục I Quy chế này.
+
+Ký số của Trường đối với văn bản điện tử
+Ký số của Trường được thực hiện theo quy định tại Phụ lục I Quy chế này [nảy → này].
+
+Điều 16. Phát hành và theo dõi việc chuyển phát văn bản đi
+
+Văn bản đi phải hoàn thành thủ tục tại Văn thư Trường và phát hành trong ngày văn bản đó được ký, chậm nhất là trong ngày làm việc tiếp theo. Văn bản khẩn phải được phát hành và gửi ngay sau khi ký văn bản.
+Việc phát hành văn bản mật đi phải bảo đảm bí mật nội dung của văn bản theo quy định của pháp luật về bảo vệ bí mật nhà nước, đúng số lượng, thời gian và nơi nhận.
+Văn bản đã phát hành nhưng có sai sót về nội dung phải được sửa đổi, thay thế bằng văn bản có hình thức tương đương. Văn bản đã phát hành nhưng có sai sót về thể [thê → thể] thức, kỹ thuật trình bày, thủ tục ban hành phải được đính chính bằng công văn của Trường.
+Thu hồi văn bản
+a) Đối với văn bản giấy, trường hợp nhận được văn bản thông báo thu hồi, bên nhận có trách nhiệm gửi lại văn bản đã nhận.
+
+b) Đối với văn bản điện tử, trường hợp nhận được văn bản thông báo thu hồi [hôi → hồi], bên nhận hủy bỏ văn bản điện tử bị thu hồi [hôi → hồi] trên Hệ thống, đồng thời thông báo qua Hệ thống để [đề → để] bên gửi biết.
+
+Phát hành văn bản giấy [giây → giấy] từ văn bản được ký số của người có thẩm quyền [thâm quyển → thẩm quyền]: Văn thư Trường thực hiện in văn bản đã được ký số của người có thẩm quyền [thâm quyền → thẩm quyền] ra giấy, đóng dấu của cơ quan, tổ chức để tạo bản chính [bán chính → bản chính] văn bản giấy và phát hành văn bản.
+Trường hợp cần phát hành văn bản điện tử từ văn bản giấy: Văn thư Trường thực hiện theo quy định tại điểm c khoản 1 Điều 23 Quy chế này.
+Điều 17. Lưu văn bản đi
+
+Lưu văn bản giấy
+a) Bản gốc [Bán gốc → Bản gốc] văn bản được lưu tại Văn thư Trường và phải được đóng dấu [dẫu → dấu] ngay sau khi phát hành, sắp xếp theo thứ tự đăng ký.
+
+b) Bản chính văn bản lưu tại hồ sơ công việc.
+
+Lưu văn bản điện tử
+a) Bản gốc [Bán gốc → Bản gốc] văn bản điện tử phải được lưu trên Hệ thống [thông → thống] của Trường - nơi ban hành văn bản.
+
+b) Trường hợp Hệ thống đáp ứng theo quy định tại Phụ lục VI Quy chế này và các quy định của pháp luật có liên quan thì sử dụng và lưu bản gốc văn bản điện tử trên Hệ thống thay cho văn bản giấy.
+
+c) Trường hợp Hệ thống chưa đáp ứng theo quy định tại Phụ lục VI Quy chế này và các quy định của pháp luật có liên quan thì Văn thư Trường tạo bản chính văn bản giấy theo quy định tại khoản 5 Điều 16 Quy chế này để lưu tại Văn thư Trường và hồ sơ công việc.
+
+Mục 2
+QUẢN LÝ VĂN BẢN ĐẾN
+
+Điều 18. Trình tự quản lý văn bản đến
+
+Tiếp nhận văn bản đến.
+Đăng ký văn bản đến.
+Trình, chuyển [chuyên → chuyển] giao văn bản đến.
+Giải quyết và theo dõi [theo đõi → theo dõi], đôn đốc việc giải quyết văn bản đến.
+Điều 19. Tiếp nhận văn bản đến
+
+Đối với văn bản giấy
+a) Văn thư Trường khi nhận được văn bản đến phải kiểm tra số lượng, tình trạng [tỉnh trạng → tình trạng] bì, dấu niêm phong (nếu có), nơi gửi; đối chiếu số, ký hiệu ghi ngoài bì với số, ký hiệu của văn bản trong bì. Trường hợp phát hiện có sai sót hoặc dấu hiệu bất thường, Văn thư Trường báo ngay người có trách nhiệm giải quyết và thông báo cho nơi gửi văn bản.
+
+b) Tất cả văn bản giấy đến (bao gồm cả văn bản có dấu chỉ độ mật) gửi tới Trường phải đăng ký tại Văn thư Trường và phải được bóc bì, đóng dấu “ĐẾN”. Đối với văn bản gửi đích danh cá nhân hoặc tổ chức đoàn thể [đoản thể → đoàn thể] trong Trường thì Văn thư Trường chuyển [chuyên → chuyển] cho nơi nhận (không bóc bì). Những bì văn bản gửi đích danh cá nhân, nếu là văn bản liên quan đến công việc chung của Trường thì cá nhân nhận văn bản có trách nhiệm chuyển lại cho Văn thư Trường để đăng ký.
+
+c) Mẫu dấu “ĐẾN” [ĐÉN → ĐẾN] được thực hiện theo quy định tại Phụ lục IV Quy chế này.
+
+Đối với văn bản điện tử
+a) Văn thư Trường phải kiểm tra tính xác thực và toàn vẹn của văn bản điện tử và thực hiện tiếp nhận trên Hệ thống.
+
+b) Trường hợp văn bản điện tử không đáp ứng các quy định tại điểm a khoản này hoặc gửi sai nơi nhận thì Văn thư Trường phải trả lại cho cơ quan, tổ chức gửi văn bản trên Hệ thống. Trường hợp phát hiện có sai sót hoặc dấu hiệu [đấu hiệu → dấu hiệu] bất thường thì Văn thư Trường báo ngay người có trách nhiệm giải quyết và thông báo cho nơi gửi văn bản.
+
+c) Văn thư Trường khi nhận được văn bản có trách nhiệm thông báo ngay trong ngày cho cơ quan, tổ chức gửi về việc đã nhận văn bản bằng chức năng của Hệ thống [thông → thống].
+
+Điều 20. Đăng ký văn bản đến
+
+Việc đăng ký văn bản đến phải bảo đảm [báo đảm → bảo đảm] đầy đủ, rõ ràng, chính xác các thông tin cần thiết theo mẫu sổ đăng ký [số đãng ký → sổ đăng ký] văn bản đến hoặc theo thông tin đầu vào của dữ liệu quản lý văn bản đến. Những văn bản đến không được đăng ký tại Văn thư Trường thì đơn vị, cá nhân không có trách nhiệm giải quyết, trừ những loại văn bản đến được đăng ký riêng theo quy định của pháp luật.
+Số đến của văn bản được lấy liên tiếp theo thứ tự và trình tự thời gian tiếp nhận văn bản trong năm, thống nhất giữa văn bản giấy và văn bản điện tử.
+Đăng ký văn bản
+Văn bản được đăng ký bằng sổ [số → sổ] hoặc bằng Hệ thống.
+
+a) Đăng ký văn bản đến bằng sổ [số → sổ]
+
+Văn thư Trường đăng ký văn bản vào sổ đăng ký [sô đăng ký → sổ đăng ký] văn bản đến. Mẫu sổ đăng ký [số đăng ký → sổ đăng ký] văn bản đến theo quy định tại Phụ lục IV Quy chế này.
+
+b) Đăng ký văn bản đến bằng Hệ thống
+
+Văn thư Trường tiếp nhận văn bản và đăng ký vào Hệ thống. Trường hợp cần thiết, Văn thư Trường thực hiện số hóa văn bản đến theo quy định tại Phụ lục I Quy chế này. Văn thư Trường cập nhật vào Hệ thống các trường thông tin đầu vào của dữ liệu quản lý văn bản đến theo quy định tại Phụ lục VI Quy chế này. Văn bản đến được đăng ký vào Hệ thống phải được in ra giấy đầy đủ các trường thông tin theo mẫu Sổ đăng ký [Số đăng ký → Sổ đăng ký] văn bản đến, ký nhận và đóng số để quản lý.
+
+Văn bản mật được đăng ký theo quy định của pháp luật về bảo vệ bí mật nhà nước.
+Điều 21. Trình, chuyển giao [chuyến giao → chuyển giao] văn bản đến
+
+Văn bản đến phải được Văn thư Trường trình trong ngày, chậm nhất là trong ngày làm việc tiếp theo đến người có thẩm quyền [thẩm quyền → thẩm quyền] chỉ đạo giải quyết và chuyển giao cho đơn vị hoặc cá nhân được giao xử lý. Trường hợp đã xác định rõ đơn vị hoặc cá nhân được giao xử lý, Văn thư Trường chuyển văn bản đến đơn vị, cá nhân xử lý theo Quy chế công tác Văn thư, lưu trữ của Trường. Văn bản đến có dấu chỉ các mức độ khẩn phải được trình và chuyển giao ngay sau khi nhận được. Việc chuyển giao văn bản phải bảo đảm chính xác và giữ bí mật nội dung văn bản.
+Căn cứ nội dung của văn bản đến; quy chế làm việc của Trường; chức năng, nhiệm vụ và kế hoạch công tác được giao cho đơn vị, cá nhân, người có thẩm quyền [thẩm quyền → thẩm quyền] ghi ý kiến chỉ đạo giải quyết. Đối với văn bản liên quan đến nhiều đơn vị hoặc cá nhân thì xác định rõ đơn vị hoặc cá nhân chủ trì, phối hợp và thời hạn giải quyết.
+Trình, chuyển giao [chuyên giao → chuyển giao] văn bản giấy [giây → giấy]: Ý kiến chỉ đạo giải quyết được ghi vào mục “Chuyển” trong dấu [dâu → dấu] “ĐẾN” hoặc Phiếu giải quyết văn bản đến theo mẫu tại Phụ lục IV Quy chế này. Sau khi có ý kiến chỉ đạo giải quyết của người có thẩm quyền [thâm quyên → thẩm quyền], văn bản đến được chuyển lại cho Văn thư Trường để đăng ký bổ sung [bố sung → bổ sung] thông tin, chuyển cho đơn vị hoặc cá nhân được giao giải quyết. Khi chuyển giao văn bản giấy đến cho đơn vị, cá nhân phải ký nhận văn bản.
+Trình, chuyển giao văn bản điện tử trên Hệ thống: Văn thư Trường trình văn bản điện tử đến người có thẩm quyền [thâm quyền → thẩm quyền] chỉ đạo giải quyết trên Hệ thống.
+Người có thẩm quyền [thẩm quyền → thẩm quyền] ghi ý kiến chỉ đạo giải quyết văn bản đến trên Hệ thống và cập nhật vào Hệ thống các thông tin: Đơn vị hoặc người nhận; ý kiến chỉ đạo, trạng thái xử lý văn bản; thời hạn giải quyết; chuyển văn bản cho đơn vị hoặc cá nhân được giao giải quyết. Trường hợp văn bản điện tử gửi kèm văn bản giấy [giây → giấy] thì Văn thư Trường thực hiện trình văn bản điện tử trên Hệ thống và chuyển [chuyên → chuyển] văn bản giấy đến đơn vị hoặc cá nhân được người có thẩm quyền [thâm quyền → thẩm quyền] giao chủ trì giải quyết.
+
+Điều 22. Giải quyết và theo dõi, đôn đốc việc giải quyết văn bản đến
+
+Hiệu trưởng, Phó Hiệu trưởng hoặc người đứng đầu các đơn vị trong Trường có trách nhiệm chỉ đạo giải quyết kịp thời văn bản đến và giao người có trách nhiệm theo dõi, đôn đốc việc giải quyết văn bản đến.
+Khi nhận được văn bản đến, đơn vị hoặc cá nhân có trách nhiệm nghiên cứu, giải quyết văn bản đến theo thời hạn quy định tại quy chế làm việc của Trường. Những văn bản đến có dấu chỉ các mức độ khẩn [khân → khẩn] phải được giải quyết ngay.
+Mục 3
+SAO VĂN BẢN
+Điều 23. Các hình thức bản sao
+
+Sao y gồm: Sao y từ văn bản giấy sang văn bản giấy [giây → giấy], sao y từ văn bản điện tử sang văn bản giấy, sao y từ văn bản giấy [giây → giấy] sang văn bản điện tử.
+a) Sao y từ văn bản giấy sang văn bản giấy được thực hiện bằng việc chụp từ bản gốc hoặc bản chính văn bản giấy sang giấy.
+
+b) Sao y từ văn bản điện tử sang văn bản giấy được thực hiện bằng việc in từ bản gốc văn bản điện tử ra giấy.
+
+c) Sao y từ văn bản giấy sang văn bản điện tử được thực hiện bằng việc số hóa văn bản giấy và ký số của Trường.
+
+Sao lục
+a) Sao lục gồm: Sao lục từ văn bản giấy sang văn bản giấy, sao lục từ văn bản giấy sang văn bản điện tử, sao lục từ văn bản điện tử sang văn bản giấy.
+
+b) Sao lục được thực hiện bằng việc in, chụp từ bản sao y.
+
+Trích sao
+a) Trích sao gồm: Trích sao từ văn bản giấy sang văn bản giấy, trích sao từ văn bản giấy sang văn bản điện tử, trích sao từ văn bản điện tử sang văn bản điện tử, trích sao từ văn bản điện tử sang văn bản giấy.
+
+b) Bản trích sao [Bân trích sao → Bản trích sao] được thực hiện bằng việc tạo lập lại đầy đủ thể thức, phần nội dung văn bản cần trích sao.
+
+Thể thức và kỹ thuật trình bày bản sao y, sao lục, trích sao được thực hiện theo quy định tại Phụ lục I Quy chế này.
+Điều 24. Giá trị pháp lý của bản sao
+
+Bản sao y, bản sao lục và bản trích sao được thực hiện theo đúng quy định tại Quy chế này có giá trị pháp lý như bản chính.
+
+Điều 25. Thẩm quyền sao văn bản
+
+Hiệu trưởng hoặc người được Hiệu trưởng ủy quyền quyết định việc sao văn bản do Trường ban hành, văn bản do các cơ quan, tổ chức khác gửi đến và [vả → và] quy định thẩm quyền [thầm quyền → thẩm quyền] ký các bản sao văn bản.
+Việc sao, chụp tài liệu, vật chứa bí mật nhà nước được thực hiện theo quy định của pháp luật về bảo vệ bí mật nhà nước.
+Chương IV
+CÔNG TÁC LƯU TRỮ
+Mục 1
+LẬP HỒ SƠ VÀ NỘP LƯU HỒ SƠ, TÀI LIỆU VÀO LƯU TRỮ TRƯỜNG
+
+Điều 26. Lập Danh mục hồ sơ
+
+Danh mục hồ sơ do Hiệu trưởng phê duyệt, được ban hành vào đầu năm và gửi các đơn vị, cá nhân liên quan làm căn cứ để lập hồ sơ. Mẫu Danh mục hồ sơ được thực hiện theo quy định tại Phụ lục V Quy chế này.
+
+Điều 27. Lập hồ sơ
+
+Yêu cầu
+a) Phản ánh đúng chức năng, nhiệm vụ của Trường, đơn vị, tổ chức.
+
+b) Các văn bản, tài liệu trong một hồ sơ phải [phái → phải] có sự liên quan chặt chẽ với nhau và phản ánh đúng trình tự diễn biến của sự việc hoặc trình tự giải quyết công việc.
+
+Mở hồ sơ [hỗ sơ → hồ sơ]
+a) Cá nhân được giao nhiệm vụ giải quyết công việc có trách nhiệm mở hồ sơ theo Danh mục hồ sơ hoặc theo kế hoạch công tác.
+
+b) Cập nhật những thông tin ban đầu về hồ sơ theo Danh mục hồ sơ đã ban hành.
+
+c) Trường hợp các hồ sơ không có trong Danh mục hồ sơ, cá nhân được giao nhiệm vụ giải quyết công việc tự xác định các thông tin: Tiêu đề hồ sơ, số và ký hiệu hồ sơ, thời hạn bảo quản [báo quản → bảo quản] hồ sơ, người lập hồ sơ và thời gian bắt đầu.
+
+Thu thập, cập nhật văn bản, tài liệu vào hồ sơ
+Cá nhân được giao nhiệm vụ có trách nhiệm thu thập, cập nhật tất cả văn bản, tài liệu hình thành trong quá trình theo dõi, giải quyết công việc vào hồ sơ đã mở, bao gồm tài liệu phim, ảnh, ghi âm (nếu có) bảo đảm sự toàn vẹn, đầy đủ của hồ sơ, tránh bị thất lạc.
+
+Kết thúc hồ sơ
+a) Hồ sơ được kết thúc khi công việc đã giải quyết xong.
+
+b) Người lập hồ sơ có trách nhiệm: Rà soát lại toàn bộ văn bản, tài liệu có trong hồ sơ; loại ra khỏi hồ sơ bản trùng, bản nháp; xác định lại thời hạn bảo quản của hồ sơ theo quy định tại Phần XII, Phụ lục V Quy chế này; chỉnh sửa tiêu đề, số và ký hiệu hồ sơ cho phù hợp; hoàn thiện, kết thúc hồ sơ.
+
+c) Đối với hồ sơ giấy: Người lập hồ sơ thực hiện đánh số tờ đối với hồ sơ có thời hạn bảo quản từ 05 năm trở lên và viết Mục lục văn bản đối với hồ sơ có thời hạn bảo quản vĩnh viễn; viết chứng từ kết thúc đối với tất cả hồ sơ.
+
+d) Đối với hồ sơ điện tử: Người lập hồ sơ có trách nhiệm cập nhật vào Hệ thống các thông tin còn thiếu. Việc biên mục văn bản trong hồ sơ được thực hiện bằng chức năng của Hệ thống.
+
+Điều 28. Nộp lưu hồ sơ, tài liệu vào Lưu trữ Trường
+
+Hồ sơ, tài liệu nộp lưu vào Lưu trữ Trường phải đủ thành phần, đúng thời hạn và [vả → và] thực hiện theo trình tự, thủ tục quy định.
+Thời hạn nộp lưu hồ sơ, tài liệu vào Lưu trữ Trường
+a) Đối với hồ sơ, tài liệu xây dựng cơ bản: Trong thời hạn 03 tháng kể từ ngày công trình được quyết toán.
+
+b) Đối với hồ sơ, tài liệu khác: Trong thời hạn 01 [0! → 01] năm kể từ ngày công việc kết thúc.
+
+Thủ tục nộp lưu
+a) Đối với hồ sơ giấy
+
+Khi nộp lưu tài liệu phải lập 02 bản [bán → bản] “Mục lục hồ sơ, tài liệu nộp lưu” và 02 bản [bán → bản] “Biên bản giao nhận hồ sơ, tài liệu [tải liệu → tài liệu]” theo mẫu tại Phụ lục V Quy chế này. Đơn vị, cá nhân nộp lưu tài liệu và Lưu trữ Trường giữ mỗi loại 01 bản.
+
+b) Đối với hồ sơ điện tử
+
+Cá nhân được giao nhiệm vụ giải quyết công việc và lập hồ sơ thực hiện nộp lưu hồ sơ điện tử vào Lưu trữ Trường trên Hệ thống.
+
+Lưu trữ Trường có trách nhiệm kiểm tra, nhận hồ sơ theo Danh mục; liên kết chính xác dữ liệu [đữ liệu → dữ liệu] đặc tả [tá → tả] với hồ sơ; tiếp nhận và đưa hồ sơ về chế độ quản lý hồ sơ lưu trữ điện tử trên Hệ thống.
+
+Điều 29. Trách nhiệm lập hồ sơ và nộp lưu hồ sơ, tài liệu vào Lưu trữ Trường
+
+Hiệu trưởng có trách nhiệm quản lý văn bản, tài liệu của Trường; chỉ đạo, kiểm tra, hướng dẫn việc lập hồ sơ và nộp lưu hồ sơ, tài liệu [tải liệu → tài liệu] vào Lưu trữ Trường.
+Trách nhiệm của Trưởng phòng Tổng hợp
+a) Tham mưu cho Hiệu trưởng trong việc chỉ đạo, kiểm tra, hướng dẫn việc lập hồ sơ và nộp lưu hồ sơ, tài liệu vào Lưu trữ Trường đối với các đơn vị trong Trường.
+
+b) Tổ chức [Tế chức → Tổ chức] thực hiện việc lập hồ sơ và nộp lưu hồ sơ, tài liệu vào Lưu trữ Trường.
+
+Trách nhiệm của đơn vị và viên chức, người lao động trong Trường
+a) Trưởng các đơn vị trong trường chịu trách nhiệm trước Hiệu trưởng về việc lập hồ sơ, bảo quản và nộp lưu hồ sơ, tài liệu của đơn vị vào Lưu trữ Trường.
+
+b) Trong quá trình theo dõi, giải quyết công việc, mỗi cá nhân viên chức, người lao động phải lập hồ sơ về công việc và chịu trách nhiệm về số lượng, thành phần, nội dung tài liệu trong hồ sơ; bảo đảm [bảo đâm → bảo đảm] yêu cầu, chất lượng của hồ sơ theo quy định trước khi nộp lưu vào Lưu trữ Trường.
+
+c) Đơn vị và cá nhân viên chức, người lao động trong Trường có trách nhiệm nộp lưu những hồ sơ, tài liệu được xác định thời hạn bảo quản từ 05 năm trở lên vào Lưu trữ Trường.
+
+d) Trường hợp đơn vị hoặc viên chức, người lao động có nhu cầu giữ lại hồ sơ, tài liệu đã đến hạn nộp lưu để phục vụ công việc thì phải được Hiệu trưởng đồng ý bằng văn bản [bán → bản] và phải lập Danh mục hồ sơ, tài liệu giữ lại gửi Lưu trữ Trường. Thời hạn giữ lại hồ sơ, tài liệu của đơn vị, viên chức, người lao động không quá 02 năm kể từ ngày đến hạn nộp lưu.
+
+đ) Viên chức, người lao động trước khi chuyển công tác, thôi việc, nghỉ hưởng chế độ bảo hiểm xã hội, đi học tập dài ngày phải bàn giao [bản giao → bàn giao] toàn bộ hồ sơ, tài liệu hình thành trong quá trình công tác cho đơn vị hoặc cho người kế nhiệm, không được giữ hồ sơ, tài liệu của đơn vị, của Trường làm tài liệu riêng hoặc mang sang cơ quan, tổ chức khác. Biên bản bàn giao tài liệu, hồ sơ do viên chức, người lao động phụ trách phải có chữ ký của lãnh đạo đơn vị và nộp cho Trường qua phòng Tổ chức [Tế chức → Tổ chức] cán bộ là điều kiện bắt buộc trước khi nhận quyết định chuyển [chuyên → chuyển] công tác, thôi việc, nghỉ hưởng chế độ bảo hiểm xã hội, đi học tập dài ngày.
+
+Trách nhiệm của viên chức, người lao động được phân công làm công tác lưu trữ của Trường
+Viên chức, người lao động được phân công làm công tác lưu trữ của Trường có trách nhiệm hướng dẫn các đơn vị, cá nhân trong trường lập hồ sơ công việc, giao nộp hồ sơ, tài liệu vào Lưu trữ Trường theo đúng quy định của Nhà nước và của Trường.
+
+Mục 2
+CÔNG TÁC THU THẬP, BỔ SUNG TÀI LIỆU
+
+Điều 30. Tổ chức thu thập hồ sơ, tài liệu đưa vào Lưu trữ Trường
+
+Hàng năm, viên chức, người lao động được phân công làm công tác Lưu trữ của trường có trách nhiệm tổ chức thu thập hồ sơ, tài liệu đã đến hạn nộp lưu vào Lưu trữ Trường, cụ thể:
+
+Lập kế hoạch thu thập hồ sơ, tài liệu.
+Phối hợp với các đơn vị, viên chức, người lao động xác định những loại hồ sơ, tài liệu cần nộp lưu vào Lưu trữ Trường.
+Hướng dẫn các đơn vị, viên chức, người lao động chuẩn bị hồ sơ, tài liệu và lập “Mục lục hồ sơ, tài liệu [tải liệu → tài liệu] nộp lưu”.
+Chuẩn bị kho và các phương tiện bảo quản để [đề → để] tiếp nhận hồ sơ, tài liệu.
+Tổ chức tiếp nhận hồ sơ, tài liệu, kiểm tra đối chiếu giữa mục lục hồ sơ, tài liệu nộp lưu với thực tế tài liệu và lập biên bản giao nhận tài liệu.
+Điều 31. Chỉnh lý tài liệu
+
+Hồ sơ, tài liệu của Trường phải được chỉnh lý hoàn chỉnh và bảo quản trong kho lưu trữ của Trường.
+
+Nguyên tắc chỉnh lý
+a) Không phân tán phông lưu trữ.
+
+b) Khi phân loại, lập hồ sơ (chỉnh sửa hoàn thiện, phục hồi hoặc lập mới hồ sơ), phải tôn trọng sự hình thành tài liệu theo trình tự theo dõi, giải quyết công việc (không phá vỡ hồ sơ đã lập).
+
+c) Tài liệu sau khi chỉnh lý phải phản ánh được các hoạt động của đơn vị, của Trường.
+
+Tài liệu sau khi chỉnh lý phải đạt yêu cầu:
+a) Phân loại và lập hồ sơ hoàn chỉnh.
+
+b) Xác định thời hạn [bạn → hạn] bảo quản cho hồ sơ, tài liệu.
+
+c) Hệ thống hóa hồ sơ, tài liệu.
+
+d) Lập công cụ tra cứu: Mục lục hồ sơ, cơ sở dữ liệu [đữ liệu → dữ liệu] và các công cụ tra cứu khác phục vụ cho việc quản lý và tra cứu sử dụng tài liệu.
+
+đ) Lập danh mục [đanh mục → danh mục] tài liệu hết giá trị.
+
+Mục 3
+XÁC ĐỊNH THỜI HẠN VÀ GIÁ TRỊ TÀI LIỆU
+
+Điều 32. Xác định thời hạn lưu trữ, giá trị tài liệu
+
+Việc xác định giá trị tài liệu phải đạt được yêu cầu sau:
+a) Căn cứ [cử → cứ] vào quy định của Nhà nước, của Bộ Giáo dục và Đào tạo và của Trường để [đề → để] xác định và phân loại tài liệu cần bảo quản vĩnh viễn và tài liệu bảo quản có thời hạn [bạn → hạn] bằng số năm cụ thể.
+
+b) Xác định tài liệu hết giá trị để tiêu hủy.
+
+Thời hạn lưu trữ, giá trị tài liệu, hồ sơ hình thành trong quá trình hoạt động của các đơn vị trong Trường căn cứ vào Phần XII, Phụ lục V của Quy chế này và các quy định của Bộ Giáo dục và Đào tạo [Đảo tạo → Đào tạo], của Nhà nước.
+Điều 33. Hội đồng xác định giá trị tài liệu
+
+Khi tiến hành xác định giá trị tài liệu, phải thành lập Hội đồng xác định giá trị tài liệu.
+Thành phần Hội đồng xác định giá trị tài liệu do phòng Tổng hợp đề xuất, Hiệu trưởng quyết định, bao gồm:
+a) Chủ tịch Hội đồng: Hiệu trưởng hoặc Phó Hiệu trưởng được Hiệu trưởng ủy quyền.
+
+b) Phó Chủ tịch Hội đồng gồm: Lãnh đạo phòng Tổng hợp và lãnh đạo phòng Thanh tra - Pháp chế;
+
+c) Thư ký Hội đồng: Viên chức, người lao động được phân công làm công tác Lưu trữ của Trường;
+
+d) Các ủy viên Hội đồng gồm:
+
+Viên chức, người lao động của phòng Tổng hợp và phòng Thanh tra - Pháp chế.
+Đại diện lãnh đạo đơn vị và viên chức, người lao động phụ trách công tác văn thư lưu trữ của các đơn vị có tài liệu.
+Nhiệm vụ của Hội đồng xác định giá trị tài liệu: Tư vấn cho Hiệu trưởng quyết định mục lục hồ sơ, tài liệu [tải liệu → tài liệu] lưu trữ để giao nộp vào Lưu trữ Trường (nếu có) và danh mục tài liệu hết giá trị để tiêu hủy.
+Phương thức làm việc của Hội đồng xác định giá trị tài liệu:
+a) Từng thành viên Hội đồng xem xét và cho ý kiến về Mục lục hồ sơ, tài liệu giao nộp vào Lưu trữ Trường và Danh mục tài liệu hết giá trị để tiêu hủy. Đối với Danh mục tài liệu [tải liệu → tài liệu] hết giá trị: Kiểm tra thực tế tài liệu (nếu cần).
+
+b) Hội đồng thảo luận tập thể và biểu quyết theo đa số. Các ý kiến khác nhau phải được ghi vào biên bản cuộc họp để trình Hiệu trưởng.
+
+c) Thông qua biên bản trình Hiệu trưởng quyết định.
+
+Hội đồng xác định giá trị tài liệu chịu trách nhiệm về hoạt động của mình [mỉnh → mình] trước Hiệu trưởng. Hội đồng tự giải thể sau khi hoàn thành nhiệm vụ.
+Điều 34. Tiêu hủy [húy → hủy] tài liệu hết giá trị
+
+Thẩm quyền [Thâm quyền → Thẩm quyền] quyết định tiêu hủy tài liệu hết giá trị: Hiệu trưởng quyết định việc tiêu hủy tài liệu hết giá trị tại Lưu trữ Trường và tại các đơn vị.
+Nguyên tắc tiêu hủy tài liệu hết giá trị:
+a) Việc tiêu hủy tài liệu hết giá trị phải bảo đảm đúng thủ tục và quy trình quy định tại khoản 3 Điều này.
+
+b) Tài liệu hết giá trị tại Lưu trữ Trường và tại các đơn vị phải được Hội đồng xác định giá trị tài liệu của Trường thẩm định [thâm định → thẩm định] trước khi trình Hiệu trưởng ra quyết định tiêu hủy.
+
+c) Khi xét hủy tài liệu hết giá trị, Hội đồng xác định giá trị tài liệu phải đồng thời xem xét cả mục lục hồ sơ, tài liệu giữ lại.
+
+d) Khi tiêu hủy tài liệu, phải đảm bảo [đảm báo → đảm bảo] tiêu hủy hết thông tin ghi trên tài liệu và phải được lập thành biên bản.
+
+Thủ tục xét và tiêu hủy tài liệu hết giá trị tại Lưu trữ Trường:
+a) Phòng Tổng hợp lập Danh mục tài liệu hết giá trị và Bản thuyết minh tài liệu hết giá trị theo quy định tại Phụ lục V Quy chế này.
+
+b) Trình Hiệu trưởng hồ sơ xét tiêu hủy tài liệu [tải liệu → tài liệu] hết giá trị, gồm:
+
+Tờ trình về việc tiêu hủy tài liệu hết giá trị.
+Danh mục tài liệu [tải liệu → tài liệu] hết giá trị.
+Bản thuyết minh tài liệu hết giá trị.
+Mục lục hồ sơ, tài liệu giữ lại.
+Danh sách dự kiến thành phần tham gia Hội đồng xác định giá trị tài liệu.
+c) Hội đồng xác định giá trị tài liệu họp, lấy ý kiến [lẫy ý kiến → lấy ý kiến] các thành viên Hội đồng về Danh mục tài liệu hết giá trị; lập Biên bản nội dung cuộc họp có đầy đủ chữ ký của các thành viên Hội đồng tham dự; hoàn chỉnh Danh mục tài liệu hết giá trị (nếu có yêu cầu); lập hồ sơ trình Hiệu trưởng xem xét ra quyết định tiêu hủy tài liệu [tải liệu → tài liệu] hết giá trị.
+
+d) Sau khi có quyết định bằng văn bản của Hiệu trưởng, phòng Tổng hợp tổ chức tiêu hủy tài liệu hết giá trị.
+
+đ) Phòng Tổng hợp lập và lưu hồ sơ về việc tiêu hủy tài liệu hết giá trị.
+
+Hồ sơ tiêu hủy tài liệu hết giá trị được lập theo quy định tại Phụ lục V Quy chế này, trong đó:
+Việc tiêu hủy tài liệu hết giá trị phải được lập thành hồ sơ, Hồ sơ về việc tiêu hủy tài liệu hết giá trị bao gồm:
+
+Tờ trình của phòng Tổng hợp trình Hiệu trưởng về việc tiêu hủy tài liệu hết giá trị.
+Danh mục tài liệu [tải liệu → tài liệu] hết giá trị và bản thuyết minh tài liệu hết giá trị.
+Quyết định thành lập Hội đồng xác định giá trị tài liệu.
+Các phiếu góp ý của các thành viên Hội đồng xác định giá trị tài liệu đối với Danh mục tài liệu [tải liệu → tài liệu] hết giá trị.
+Biên bản họp Hội đồng xác định giá trị tài liệu [tải liệu → tài liệu].
+Quyết định tiêu hủy tài liệu hết giá trị của Hiệu trưởng.
+Biên bản về việc bàn giao tài liệu hết giá trị.
+Biên bản về việc tiêu hủy tài liệu [tải liệu → tài liệu] hết giá trị.
+Các tài liệu khác có liên quan (nếu có).
+Hồ sơ tiêu hủy tài liệu hết giá trị phải được bảo quản tại Lưu trữ Trường theo quy định của Nhà nước và của Bộ Giáo dục và Đào tạo.
+Mục 4
+BẢO QUẢN, TỔ CHỨC SỬ DỤNG TÀI LIỆU LƯU TRỮ
+
+Điều 35. Bảo quản [Báo quán → Bảo quản] tài liệu lưu trữ
+
+Hồ sơ, tài liệu chưa đến hạn nộp lưu vào Lưu trữ Trường do các viên chức, người lao động phụ trách các hoạt động tự bảo quản và phải đảm bảo an toàn cho các hồ sơ, tài liệu [tải liệu → tài liệu].
+Hồ sơ, tài liệu [tải liệu → tài liệu] lưu trữ đến hạn nộp lưu phải được giao nộp vào Lưu trữ Trường và tập trung bảo quản trong kho lưu trữ của Trường. Kho lưu trữ phải được trang bị đầy đủ các thiết bị, phương tiện cần thiết theo quy định đảm bảo [đám báo → đảm bảo] an toàn cho tài liệu [tải liệu → tài liệu].
+Trưởng phòng Tổng hợp có trách nhiệm chỉ đạo thực hiện các quy định về bảo quản tài liệu lưu trữ: bố trí kho lưu trữ theo đúng tiêu chuẩn quy định; thực hiện các biện pháp phòng chống cháy, nổ [nô → nổ], phòng chống thiên tai, phòng gian, bảo mật đối với kho lưu trữ và tài liệu lưu trữ; trang bị đầy đủ các thiết bị kỹ thuật, phương tiện bảo quản tài liệu [tải liệu → tài liệu] lưu trữ; duy trì các chế độ bảo quản phù hợp với từng loại tài liệu lưu trữ.
+Viên chức, người lao động được phân công làm công tác Lưu trữ Trường có trách nhiệm: bố trí, sắp xếp khoa học tài liệu lưu trữ; hồ sơ, tài liệu trong kho để trong hộp (cặp), dán nhãn [đán nhãn → dán nhãn] ghi đầy đủ thông tin theo quy định để tiện thống kê, kiểm tra và tra cứu; thường xuyên kiểm tra tình hình [tỉnh hỉnh → tình hình] tài liệu có trong kho để nắm được số lượng, chất lượng tài liệu.
+Điều 36. Đối tượng và thủ tục khai thác, sử dụng [sứ dụng → sử dụng] tài liệu
+
+Tất cả viên chức, người lao động trong Trường, ngoài Trường và mọi [mợi → mọi] cá nhân đều được khai thác, sử dụng tài liệu lưu trữ vì mục đích công vụ và các nhu cầu riêng chính đáng.
+Cá nhân ngoài Trường nghiên cứu tài liệu vì mục đích công vụ phải có giấy giới thiệu ghi rõ mục đích nghiên cứu tài liệu và phải được Hiệu trưởng hoặc Trưởng [Trường → Trưởng] phòng Tổng hợp đồng ý.
+Cá nhân khai thác sử dụng tài liệu vì mục đích riêng phải có đơn xin sử dụng tài liệu, giấy tờ tùy thân và phải được Hiệu trưởng hoặc Trưởng phòng Tổng hợp đồng ý.
+Điều 37. Các hình thức tổ chức sử dụng tài liệu lưu trữ
+
+Nghiên cứu tài liệu tại chỗ.
+Sao, chụp tài liệu lưu trữ.
+Xác nhận các thông tin liên quan đến hồ sơ, tài liệu lưu trữ.
+Cung cấp thông tin tài liệu lưu trữ để viết bài [bải → bài] cho cơ quan thông tấn báo chí, viết sách và các đề tài nghiên cứu khoa học.
+Trích dẫn tài liệu lưu trữ trong các công trình nghiên cứu.
+Tham gia triển lãm, trưng bày tài liệu lưu trữ.
+Điều 38. Thẩm quyền [Thắm quyền → Thẩm quyền] cho phép khai thác, sử dụng tài liệu lưu trữ
+
+Hiệu trưởng căn cứ quy định của Luật Lưu trữ năm 2011 và các quy định khác của pháp luật có liên quan quy định việc sử dụng tài liệu lưu trữ tại Lưu trữ của Trường.
+Đơn vị, cá nhân được mang tài liệu [tải liệu → tài liệu] lưu trữ ra khỏi Lưu trữ Trường để phục vụ công tác, nghiên cứu khoa học và các nhu cầu chính đáng khác sau khi được Hiệu trưởng đồng ý và phải hoàn trả nguyên vẹn tài liệu [tải liệu → tài liệu] lưu trữ đó.
+Hiệu trưởng quyết định việc mang tài liệu lưu trữ tại Lưu trữ Trường ra nước ngoài; quy định việc mang tài liệu lưu trữ ra khỏi Lưu trữ Trường để sử dụng trong nước.
+Điều 39. Quản lý việc sử dụng tài liệu lưu trữ
+
+Phòng Tổng hợp xây dựng [xây đựng → xây dựng] Nội quy tra cứu tài liệu [tải liệu → tài liệu] lưu trữ của Trường.
+Nội quy tra cứu bao gồm các nội dung cần quy định sau:
+a) Thời gian phục vụ.
+
+b) Các giấy tờ cần xuất trình khi đến khai thác tài liệu.
+
+c) Những vật dụng được và không được mang vào khu vực/phòng tra cứu.
+
+d) Quy định các thủ tục nghiên cứu và khai thác tài liệu [tải liệu → tài liệu].
+
+đ). Không được tự ý sao, chụp ảnh tài liệu, dữ liệu trên máy tính và thông tin trong công cụ tra cứu khi chưa được phép.
+
+e) Ngoài các quy định trên, cần thực hiện nghiêm chỉnh các quy định có liên quan trong Nội quy ra, vào Trường; Quy định về sử dụng tài liệu; Quy định về phòng chống cháy nổ [nô → nổ] của Trường và các quy định, quy chế khác.
+
+Viên chức, người lao động được phân công làm công tác Lưu trữ của trường phải lập các sổ nhập, xuất tài liệu [tải liệu → tài liệu], sổ đăng ký mục lục hồ sơ vào sổ đăng ký tra cứu để quản lý tài liệu lưu trữ và phục vụ khai thác tài liệu [tải liệu → tài liệu].
+
+Chương V
+QUẢN LÝ, SỬ DỤNG CON DẤU VÀ THIẾT BỊ LƯU KHÓA BÍ MẬT
+TRONG CÔNG TÁC VĂN THƯ LƯU TRỮ
+
+Điều 40. Quản lý con dấu, thiết bị lưu khóa bí mật
+
+Trưởng phòng Tổng hợp chịu trách nhiệm trước Hiệu trưởng về việc quản lý, sử dụng con dấu, thiết bị lưu khóa bí mật của Trường và hướng dẫn các đơn vị trong Trường quản lý [quân lý → quản lý] con dấu, thiết bị lưu khóa bí mật của đơn vị. Trưởng các đơn vị có con dấu riêng chịu trách nhiệm trước Hiệu trưởng về quản lý [quán lý → quản lý], sử dụng [sử đụng → sử dụng] con dấu, thiết bị lưu khóa bí mật của đơn vị.
+Con dấu, thiết bị lưu khóa bí mật của Trường được giao cho cá nhân làm công tác Văn thư Trường quản lý và sử dụng. Cá nhân làm công tác Văn thư Trường được giao sử dụng và bảo quản con dấu [đấu → dấu], thiết bị lưu khóa bí mật chịu trách nhiệm trước Hiệu trưởng và Trưởng phòng Tổng hợp về việc quản lý và sử dụng con dấu [dẫu → dấu], thiết bị lưu khóa bí mật có trách nhiệm thực hiện những quy định sau:
+a) Con dấu, thiết bị lưu khóa bí mật phải được bảo quản an toàn tại phòng làm việc của cá nhân làm công tác Văn thư Trường trong và ngoài giờ làm việc. Trường hợp cần đưa con dấu, thiết bị lưu khóa bí mật ra khỏi Trường phải được sự đồng ý bằng văn bản của Hiệu trưởng và phải chịu trách nhiệm về việc bảo quản [bảo quân → bảo quản], sử dụng con dấu, thiết bị lưu khóa bí mật.
+
+b) Không giao con dấu, thiết bị lưu khóa bí mật cho người khác khi chưa được phép bằng văn bản của Hiệu trưởng. Việc bàn giao [bàn giao → bàn giao] con dấu, thiết bị lưu khóa bí mật của Trường phải được lập biên bản.
+
+c) Phải trực tiếp đóng dấu [dâu → dấu], ký số vào văn bản do Trường ban hành và bản sao văn bản.
+
+d) Chỉ được đóng dấu, ký số của Trường vào văn bản đã có chữ ký của người có thẩm quyền [thâm quyên → thẩm quyền] và bản sao văn bản do Trường trực tiếp thực hiện.
+
+đ) Khi nét dấu [nét đấu → nét dấu] bị mòn hoặc biến dạng, cá nhân làm công tác Văn thư Trường phải báo cáo Trưởng phòng Tổng hợp và Hiệu trưởng để làm thủ tục đổi con dấu. Trường hợp con dấu bị mất, Hiệu trưởng [trường → trưởng] phải lập biên bản, báo cáo cơ quan công an nơi xảy ra mất con dấu.
+
+Cá nhân có trách nhiệm tự bảo quản an toàn thiết bị lưu khóa bí mật và khóa bí mật.
+Khi đơn vị có quyết định chia, tách hoặc sáp nhập phải nộp con dấu cũ và làm thủ tục xin khắc con dấu [đấu → dấu] mới.
+Điều 41. Sử dụng con dấu, thiết bị lưu khóa bí mật
+
+Cá nhân làm công tác Văn thư Trường phải tự tay đóng dấu vào các văn bản, giấy tờ của Trường.
+Sử dụng con dấu
+a) Dấu đóng phải rõ ràng, ngay ngắn, đúng chiều và dùng đúng mực dấu màu đỏ [đó → đỏ] theo quy định.
+
+b) Khi đóng dấu lên chữ ký, dấu đóng phải trùm lên khoảng 1/3 chữ ký về phía bên trái.
+
+c) Các văn bản ban hành kèm theo văn bản chính hoặc phụ lục: Dấu được đóng lên trang đầu, trùm một phần tên Trường hoặc tiêu đề phụ lục.
+
+d) Việc đóng dấu treo, dấu giáp lai, đóng dấu nổi trên văn bản giấy do Hiệu trưởng quy định.
+
+đ) Dấu giáp lai được đóng vào khoảng giữa mép phải của văn bản hoặc phụ lục văn bản, trùm lên một phần các tờ giấy; mỗi dấu [dầu → dấu] đóng tối đa 05 tờ văn bản.
+
+e) Không được đóng dấu trong các trường hợp sau: Đóng dấu vào giấy không có nội dung, đóng dấu trước khi ký, đóng dấu sẵn trên giấy trắng hoặc đóng dấu [dầu → dấu] lên các văn bản có chữ ký của người không có thẩm quyền [thâm quyền → thẩm quyền].
+
+Sử dụng thiết bị lưu khóa bí mật
+Thiết bị lưu khóa bí mật của Trường được sử dụng để ký số các văn bản điện tử do Trường ban hành và bản sao từ văn bản giấy sang văn bản điện tử.
+
+Chương VI
+TRÁCH NHIỆM QUẢN LÝ VỀ CÔNG TÁC VĂN THƯ, LƯU TRỮ
+
+Điều 42. Trách nhiệm quản lý
+
+Hiệu trưởng chịu trách nhiệm quản lý chung về công tác văn thư, lưu trữ; chỉ đạo việc nghiên cứu, ứng dụng khoa học và công nghệ vào công tác văn thư, lưu trữ.
+Trưởng phòng Tổng hợp
+a) Có trách nhiệm tham mưu, giúp việc Hiệu trưởng thực hiện chức năng quản lý về công tác văn thư, lưu trữ.
+
+b) Trực tiếp chỉ đạo, tổ chức thực hiện công tác văn thư, lưu trữ tại Trường theo các quy định hiện hành của Nhà nước và Quy chế này.
+
+c) Quản lý thống nhất về nghiệp vụ công tác văn thư, lưu trữ trong toàn trường.
+
+d) Kiểm tra việc thực hiện các quy định về công tác văn thư, lưu trữ đối với các đơn vị trong trường.
+
+đ) Tổ chức, chỉ đạo việc nghiên cứu, ứng dụng khoa học và công nghệ trong công tác văn thư, lưu trữ và tổ chức đào tạo, bồi dưỡng người làm công tác văn thư, lưu trữ; quản lý công tác thi đua, khen thưởng trong công tác văn thư lưu trữ.
+
+e) Đề xuất kinh phí để hiện đại hóa phương tiện, hạ tầng kỹ thuật phục vụ công tác văn thư, lưu trữ, quản lý và vận hành hiệu quả Hệ thống quản lý [quán lý → quản lý] tài liệu điện tử.
+
+g) Đề xuất nhân sự, vị trí, diện tích [điện tích → diện tích], phương tiện làm việc phù hợp, bảo đảm giữ gìn bí mật nhà nước, bảo quản an toàn con dấu, thiết bị lưu khóa bí mật của Trường.
+
+h) Sơ kết, tổng kết về công tác văn thư trong phạm vi Trường.
+
+Trưởng các đơn vị trong Trường có trách nhiệm tổ chức, chỉ đạo, kiểm tra và quản lý công tác văn thư, lưu trữ của đơn vị mình theo đúng các quy định hiện hành của [quy định hiện hành quy định hiện hành → của] Nhà nước và Quy chế này.
+Viên chức, người lao động được phân công phụ trách công tác văn thư, lưu trữ có nhiệm vụ giúp Trưởng đơn vị quản lý, tổ chức thực hiện công tác văn thư, lưu trữ.
+Viên chức, người lao động trong quá trình giải quyết công việc có liên quan đến công tác văn thư, lưu trữ phải nghiêm chỉnh thực hiện đúng các quy định tại Quy chế này và các quy định hiện hành của Nhà nước về công tác văn thư, lưu trữ.
+Văn thư, lưu trữ Trường có nhiệm vụ:
+a) Đăng ký, thực hiện thủ tục phát hành, chuyển [chuyên → chuyển] phát và theo dõi [theo đõi → theo dõi] việc chuyển phát văn bản đi.
+
+b) Tiếp nhận, đăng ký văn bản đến; trình, chuyển [chuyên → chuyển] giao văn bản đến.
+
+c) Sắp xếp, bảo quản và phục vụ việc tra cứu, sử dụng bản lưu văn bản.
+
+d) Quản lý Sổ đăng ký [Số đăng ký → Sổ đăng ký] văn bản.
+
+đ) Quản lý [Quán lý → Quản lý], sử dụng con dấu, thiết bị lưu khóa bí mật của Trường; các loại con dấu khác theo quy định.
+
+Điều 43. Kinh phí cho công tác văn thư, lưu trữ
+
+Kinh phí cho hoạt động văn thư, lưu trữ được sử dụng từ nguồn ngân sách của Trường và các nguồn kinh phí hợp pháp khác.
+Kinh phí cho công tác văn thư, lưu trữ được sử dụng vào các công việc sau:
+a) Mua sắm, nâng cấp hệ thống, hạ tầng kỹ thuật, trang thiết bị, vật tư tiêu hao phục vụ công tác văn thư, lưu trữ.
+
+b) Bảo đảm thông tin liên lạc, chuyển phát văn bản, số hóa văn bản.
+
+c) Nghiên cứu, ứng dụng khoa học và chuyển giao công nghệ trong công tác văn thư, lưu trữ.
+
+d) Các hoạt động khác phục vụ công tác văn thư, lưu trữ.
+
+Chương VII
+TỔ CHỨC THỰC HIỆN VÀ ĐIỀU KHOẢN THI HÀNH
+Điều 44. Khen thưởng, kỷ luật
+
+Kết quả xây dựng, soạn thảo và ban hành văn bản, thực hiện đúng quy định về công tác văn thư, lưu trữ là một tiêu chí thi đua được xem xét, đánh giá công nhận thành tích của tập thể [thê → thể], đơn vị, cá nhân hàng năm.
+Phòng Tổng hợp chủ trì phối hợp với các đơn vị liên quan, định kỳ hàng quý, hàng năm tổng hợp, đánh giá chất lượng soạn thảo và ban hành văn bản của Trường, việc thực hiện quy định về công tác văn thư, lưu trữ, báo cáo Hiệu trưởng và Hội đồng Thi đua [Thị đua → Thi đua] khen thưởng.
+Những tập thể, đơn vị, cá nhân có thành tích xuất sắc trong việc thực hiện Quy chế này được Hiệu trưởng xem xét khen thưởng theo quy định.
+Tập thể, cá nhân nào vi phạm Quy chế này và các quy định của Nhà nước về công tác văn thư, lưu trữ gây ra hậu quả thì tùy theo tính chất, mức độ vi phạm mà [mả → mà] bị xử lý, kỷ luật và truy cứu trách nhiệm theo các quy định hiện hành của pháp luật.
+Điều 45. Tổ chức thực hiện
+
+Trưởng các đơn vị trong Trường chịu trách nhiệm phổ biến [phố biến → phổ biến], triển khai thực hiện các quy định tại Quy chế Văn thư, lưu trữ của Trường Đại học Kinh tế Quốc dân [đân → dân] đến viên chức, người lao động trong đơn vị.
+Trưởng phòng Tổng hợp có trách nhiệm tổ chức [tố chức → tổ chức] theo dõi, đôn đốc kiểm tra các đơn vị thực hiện Quy chế này.
+Trong quá trình thực hiện, nếu có vấn đề [vẫn đề → vấn đề] phát sinh hoặc cần điều chỉnh, sửa đổi [đối → đổi], bổ sung [bố sung → bổ sung], các đơn vị, cá nhân phản ánh về phòng Tổng hợp để tổng hợp, báo cáo, đề xuất Hiệu trưởng xem xét, quyết định.
+Điều 46. Hiệu lực thi hành
+
+Quy chế này có hiệu lực thi hành kể từ ngày ký và thay thế Quy chế Công tác văn thư lưu trữ của Trường Đại học Kinh tế Quốc dân ban hành kèm theo Quyết định số 2597/QĐ-ĐHKTQD ngày 28/12/2018 của Hiệu trưởng.
+
+HIỆU TRƯỞNG
+
+(đã ký)
+PGS.TS Phạm Hồng Chương

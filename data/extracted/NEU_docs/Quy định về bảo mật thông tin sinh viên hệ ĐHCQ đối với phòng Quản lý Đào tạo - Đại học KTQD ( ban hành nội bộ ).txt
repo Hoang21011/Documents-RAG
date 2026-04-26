@@ -1,0 +1,112 @@
+ĐẠI HỌC KINH TẾ QUỐC DÂN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+PHÒNG QUẢN LÝ ĐÀO TẠO Độc lập - Tự do - Hạnh phúc
+
+QUY ĐỊNH
+Về bảo mật thông tin sinh viên hệ Đại học Chính quy
+đối với Phòng Quản lý Đào tạo – Đại học Kinh tế Quốc dân
+(ban hành nội bộ)
+
+I. Căn cứ pháp lý
+
+- Luật An ninh mạng số 24/2018/QH14 của Quốc hội ban hành ngày 12/06/2018;
+- Nghị định số 13/2023/NĐ-CP ngày 17/04/2023 của Chính phủ về bảo vệ dữ liệu cá nhân.
+
+II. Mục đích
+
+- Bảo đảm an toàn và bảo mật thông tin cá nhân, học vụ của sinh viên trong quá trình quản lý, xử lý và công bố thông tin.
+- Quy định rõ trách nhiệm và phạm vi được phép tiếp cận, sử dụng dữ liệu sinh viên đối với viên chức Phòng Quản lý đào tạo.
+- Ngăn ngừa việc sử dụng sai mục đích, rò rỉ hoặc lạm dụng thông tin sinh viên trong các hoạt động không được phép.
+
+III. Phạm vi điều chỉnh và đối tượng áp dụng
+
+- Áp dụng đối với toàn bộ viên chức, người lao động, cộng tác viên đang làm việc tại Phòng Quản lý đào tạo có liên quan đến việc tiếp cận, xử lý, công bố hoặc lưu trữ thông tin sinh viên hệ Đại học Chính quy tiêu chuẩn tại ĐH KTQD.
+- Thông tin sinh viên bao gồm cả dữ liệu trên hệ thống phần mềm, email, thông báo ở website, ...
+
+IV. Nội dung thông tin cần bảo mật
+
+4.1. Theo Nghị định số 13/2023/NĐ-CP, thông tin cá nhân cơ bản gồm:
+
+a) Họ, chữ đệm và tên khai sinh, tên gọi khác (nếu có);
+b) Ngày, tháng, năm sinh; ngày, tháng, năm chết hoặc mất tích;
+c) Giới tính;
+d) Nơi sinh, nơi đăng ký khai sinh, nơi thường trú, nơi tạm trú, nơi ở hiện tại, quê quán, địa chỉ liên hệ;
+đ) Quốc tịch;
+e) Hình ảnh của cá nhân;
+g) Số điện thoại, số CMND/CCCD, số định danh cá nhân, số hộ chiếu, số giấy phép lái xe, số biển số xe, số mã số thuế cá nhân, số bảo hiểm xã hội, số thẻ bảo hiểm y tế;
+h) Tình trạng hôn nhân;
+i) Thông tin về mối quan hệ gia đình (cha mẹ, con cái);
+k) Thông tin về tài khoản số của cá nhân; dữ liệu cá nhân phản ánh hoạt động, lịch sử hoạt động trên không gian mạng;
+l) Các thông tin khác gắn liền với một con người cụ thể hoặc giúp xác định một con người cụ thể không thuộc quy định tại khoản 4 Điều này.
+
+4.2. Thông tin của sinh viên Đại học Chính quy
+
+Thông tin của sinh viên hiện tại được lưu trữ xử lý tại Cổng thông tin Đại học Chính quy. Mỗi sinh viên có một tài khoản cá nhân để đăng nhập vào hệ thống, xem và thực hiện các chức năng trong đó.
+
+4.2.1. Thông tin cá nhân: Họ tên, mã sinh viên, ngày sinh, giới tính, tôn giáo, số CCCD, quê quán, địa chỉ, số điện thoại, email cá nhân, thông tin về gia đình, quê quán, sở thích, ưu điểm, ...
+
+4.2.2. Thông tin học tập: Khóa, Ngành/Chương trình, Lớp, Trạng thái, Thời khóa biểu, lịch thi, Kết quả học tập, điểm rèn luyện, xếp loại, tình trạng (học lại, thôi học, chuyển ngành, tốt nghiệp,...).
+
+4.2.3. Tài chính sinh viên: Học phí, lệ phí, học bổng, miễn giảm học phí, ...
+
+4.2.4. Thông tin khác: Thông tin tuyển sinh, Bảo hiểm y tế, chứng chỉ tiếng Anh, tin học, Giáo dục quốc phòng, các thông báo tới sinh viên, ...
+
+V. Quy định đối với viên chức Phòng Quản lý Đào tạo
+
+1. Về tiếp cận thông tin
+
+- Chỉ được tiếp cận thông tin phục vụ nhiệm vụ chuyên môn được phân công.
+- Không truy cập trái phép vào dữ liệu ngoài phạm vi phân công hoặc chia sẻ tài khoản truy cập cho người khác.
+
+2. Về xử lý và sử dụng thông tin
+
+- Thông tin sinh viên phải được xử lý, sử dụng đúng mục đích, có kiểm soát.
+- Không được tự ý sao chép, chuyển giao dữ liệu cho cá nhân, tổ chức bên ngoài nếu không được phép.
+
+3. Về việc truyền thông tới sinh viên
+
+3.1. Nội dung truyền thông tới sinh viên
+
+Được phân chia thành các cấp độ về thông tin gồm:
+
+3.1.1. Thông tin chung cho toàn thể sinh viên: ví dụ dự thảo quy chế quản lý đào tạo, kế hoạch đăng ký chứng chỉ xét chuẩn đầu ra, ...
+
+3.1.2. Thông tin chung cho một bộ phận sinh viên: ví dụ thời khóa biểu hệ đại học chính quy khóa 66, ...
+
+3.1.3. Thông tin cho một bộ phận sinh viên, trong đó có yêu cầu thông tin cụ thể cho từng cá nhân: ví dụ thông tin kết quả xét tốt nghiệp, kết quả chứng chỉ và học phí GDQP&AN, số liên lạc điện tử, ...
+
+3.2. Cách thức truyền thông tới sinh viên:
+
+3.2.1. Gửi thông báo tới sinh viên
+
+Thông tin được đăng tải trên Cổng thông tin Đại học chính quy (https://daihocchinhquy.neu.edu.vn) và trang web cấp 2 phòng Quản lý đào tạo.
+
+- Với nội dung 3.1.1 và 3.1.2: thông tin được đăng tải trên Cổng thông tin đại học chính quy và trang web cấp 2 phòng Quản lý đào tạo.
+- Với nội dung 3.1.3: cán bộ phụ trách tạo các thông báo được cá nhân hóa và gửi tới từng tài khoản sinh viên trên Cổng thông tin đại học chính quy (ví dụ nội dung kết quả xét tốt nghiệp). Tiếp theo cán bộ tạo thông báo chung tại Cổng thông tin đại học chính quy và web cấp 2 phòng Quản lý đào tạo, có đính kèm file danh sách chỉ bao gồm cột mã sinh viên, yêu cầu sinh viên vào xem nội dung thông báo riêng đã tạo.
+
+3.2.2. Gửi email tới tài khoản email Office 365 của sinh viên
+
+- Với nội dung 3.1.1: gửi email tới toàn bộ sinh viên các khóa có trạng thái "đang học" với nội dung là các đường link đã tạo ở mục 3.2.1.
+- Với nội dung 3.1.2 và 3.1.3: gửi email tới bộ phận sinh viên với nội dung là đường link thông báo chung đã tạo ở mục 3.2.1 theo danh sách sinh viên.
+
+Cách thức gửi email: gửi các địa chỉ email của sinh viên vào BCC (chức năng ẩn danh sách người nhận).
+
+3.2.3. Tạo tin bài trên các phương tiện truyền thông khác như Facebook (fanpage và group,...), Zalo;
+
+Chỉ dẫn link các thông báo chung đã tạo ở mục 3.2.1 tới các phương tiện truyền thông.
+
+VI. Trách nhiệm và chế tài
+
+- Viên chức vi phạm quy định sẽ bị:
+  + Nhắc nhở hoặc khiển trách nếu vi phạm lần đầu ở mức độ nhẹ;
+  + Kỷ luật theo quy định của Đại học/Phòng Quản lý đào tạo nếu vi phạm nghiêm trọng hoặc tái phạm;
+  + Chịu trách nhiệm trước pháp luật nếu gây hậu quả làm rò rỉ, thất thoát thông tin sinh viên.
+- Trưởng Phòng Quản lý đào tạo chịu trách nhiệm phổ biến, giám sát và kiểm tra định kỳ việc thực hiện quy định này.
+
+VII. Tổ chức thực hiện
+
+- Quy định này được phổ biến đến toàn thể viên chức Phòng Quản lý Đào tạo.
+- Có hiệu lực từ ngày 01 tháng 05 năm 2025.
+- Các cá nhân có liên quan ký cam kết tuân thủ quy định bảo mật thông tin ngay sau khi văn bản có hiệu lực.
+
+TRƯỞNG PHÒNG QLĐT
+TS. Lê Anh Đức

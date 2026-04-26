@@ -1,0 +1,207 @@
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+TRƯỜNG ĐH KINH TẾ QUỐC DÂN Độc lập - Tự do - Hạnh phúc
+Số: 992 /QĐ-ĐHKTQD Hà Nội, ngày 31 tháng 5 năm 2021
+QUYẾT ĐỊNH
+
+Về việc ban hành Quy định tổ chức thi kết thúc học phần
+theo hình thức thi trực tuyến của Trường Đại học Kinh tế Quốc dân
+
+HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC KINH TẾ QUỐC DÂN
+
+Căn cứ Luật số 34/2018/QH14 ngày 19/11/2018 của Quốc Hội về việc sửa đổi, bổ sung một số điều của Luật Giáo dục đại học;
+
+Căn cứ Nghị định số 99/2019/NĐ-CP ngày 30/12/2019 của Chính phủ Quy định chi tiết và hướng dẫn thi hành một số điều của Luật sửa đổi, bổ sung một số điều của Luật Giáo dục đại học;
+
+Căn cứ Thông tư số 08/2021/TT-BGDĐT ngày 18/3/2021 về việc ban hành Quy chế đào tạo trình độ đại học;
+
+Căn cứ Quyết định số 389/QĐ-ĐHKTQD ngày 08/3/2019 của Hiệu trưởng về việc ban hành Quy định đào tạo đại học hệ chính quy theo hệ thống tín chỉ tại Trường Đại học Kinh tế Quốc dân;
+
+Căn cứ Quyết định số 1755/QĐ-ĐHKTQD ngày 23/10/2017 của Hiệu trưởng về việc ban hành Quy định công tác tổ chức thi kết thúc học phần;
+
+Xét đề nghị của ông Trưởng phòng Khảo thí và ĐBCLGD.
+
+QUYẾT ĐỊNH:
+
+Điều 1. Ban hành kèm theo Quyết định này Quy định tổ chức thi kết thúc học phần theo hình thức thi trực tuyến của Trường Đại học Kinh tế Quốc dân.
+
+Điều 2. Quyết định này có hiệu lực kể từ ngày ký ban hành.
+
+Điều 3. Các ông/bà Trưởng phòng Khảo thí và ĐBCLGD, phòng Quản lý đào tạo, Trung tâm ứng dụng CNTT, các Khoa, Viện và Trưởng các đơn vị thuộc trường, các đơn vị, cá nhân có liên quan và người học chịu trách nhiệm thi hành quyết định này.
+
+Nơi nhận:
+
+Như điều 3;
+Đảng ủy - HĐT (để biết);
+Lưu: TH, KT&ĐBCLGD.
+HIỆU TRƯỞNG
+PGS.TS. Phạm Hồng Chương
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+TRƯỜNG ĐH KINH TẾ QUỐC DÂN Độc lập - Tự do - Hạnh phúc
+
+QUY ĐỊNH
+Tổ chức thi kết thúc học phần theo hình thức thi trực tuyến
+của Trường Đại học Kinh tế Quốc dân
+(Ban hành kèm theo Quyết định số 992/QĐ-ĐHKTQD ngày 31 tháng 5 năm 2021
+của Hiệu trưởng Trường Đại học Kinh tế Quốc dân)
+
+Chương I
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
+
+Văn bản này quy định về nhiệm vụ, quyền hạn và trách nhiệm của các đơn vị, cá nhân trong công tác Tổ chức thi kết thúc học phần theo hình thức trực tuyến bậc đại học chính quy do trường Đại học Kinh tế Quốc dân tổ chức đào tạo.
+Quy định này áp dụng đối với các đơn vị, cá nhân tham gia vào kỳ thi kết thúc học phần các bậc đại học chính quy do trường Đại học Kinh tế Quốc dân tổ chức, bao gồm:
+a) Trưởng các đơn vị quản lý đào tạo; lãnh đạo, giảng viên và viên chức thuộc các Khoa, Viện, Trung tâm, Bộ môn; lãnh đạo các phòng chức năng liên quan;
+
+b) Sinh viên học tập theo các lớp học phần, trong chương trình đào tạo lấy bằng cử nhân chính quy.
+
+Điều 2. Mục đích, yêu cầu
+
+Đảm bảo công bằng, chính xác, khách quan và thống nhất trong công tác đánh giá kết quả học tập của sinh viên, góp phần nâng cao chất lượng đào tạo chung của Trường và quy định của Bộ Giáo dục và Đào tạo.
+Đảm bảo tính thống nhất, nâng cao hiệu quả sử dụng hệ thống công nghệ thông tin trong tổ chức đào tạo của trường Đại học Kinh tế Quốc dân.
+Điều 3. Giải thích từ ngữ
+
+Thi viết tự luận trực tuyến có giám sát trên ứng dụng Microsoft Teams (Thi tự luận): là hình thức đánh giá sinh viên bằng việc hoàn thành bài thi theo hình thức viết tay trên giấy và nộp bài bằng cách gửi file mềm định dạng PDF hoặc các định dạng ảnh phổ biến JPG, PNG... bằng việc chụp ảnh bài làm chuyển qua phần mềm thi. Bài thi sẽ được in và chuyển bộ môn chấm không rọc phách.
+Thi vấn đáp trực tuyến trên ứng dụng Teams (thi vấn đáp): là hình thức đánh giá sinh viên thông qua việc trả lời các câu hỏi trực tiếp từ giảng viên thông qua phần mềm trực tuyến. Mỗi phòng thi vấn đáp có 02 giảng viên vấn đáp.
+Thi viết luận và nộp bài trên hệ thống LMS: là hình thức đánh giá sinh viên thông qua chấm bài luận do sinh viên viết tay và nộp qua hệ thống LMS. Đề thi được gửi qua hệ thống LMS.
+Phòng thi: là không gian nơi sinh viên làm bài và nộp bài, trong đó các hoạt động của sinh viên đều được theo dõi, giám sát.
+Phần mềm thi trực tuyến: là hệ thống các phần mềm được sử dụng để tổ chức ca thi trực tuyến.
+Đề thi trực tuyến: là đề thi được Bộ môn biên soạn và được chuyển đổi thành file PDF không chỉnh sửa được hoặc đưa lên trực tiếp lên hệ thống LMS.
+Ca thi:
+Thi tự luận: thời gian sinh viên làm bài cho một ca thi tự luận không vượt quá 75 phút.
+Thi vấn đáp: thời gian cho ca thi phỏng vấn không vượt quá 4 tiếng và phải đảm bảo thực hiện cho 15 sinh viên hoàn thành phần thi. Thời gian tối đa một sinh viên vấn đáp không vượt quá 15 phút.
+Thi viết tiểu luận: thời gian cho sinh viên làm bài tiểu luận do Bộ môn quy định, phải đảm bảo đủ thời gian để sinh viên hoàn thành bài thi và phân loại đánh giá được năng lực. Thời gian làm bài không vượt quá 120 phút, thời gian nộp bài không quá 15 phút.
+Cán bộ coi thi (CBCT) là viên chức, giảng viên cơ hữu được giao nhiệm vụ trông thi tự luận hoặc hỗ trợ công tác tổ chức thi.
+Giảng viên chấm thi vấn đáp là giảng viên cơ hữu được Bộ môn phân công giảng dạy học phần coi thi vấn đáp.
+Giảng viên chấm và coi thi viết luận: là cán bộ, giảng viên do Bộ môn phân công.
+Dữ liệu thi trực tuyến: bao gồm danh sách sinh viên theo phòng thi, ca thi, bài làm của sinh viên, hình ảnh video được lưu lại qua phần mềm thi trong toàn bộ thời gian sinh viên làm bài thi (đối với hình thức thi vấn đáp và thi tự luận).
+Chương II
+TỔ CHỨC THỰC HIỆN
+
+Điều 4. Lựa chọn hình thức thi
+
+Căn cứ chương trình đào tạo, học phần phụ trách, Bộ môn xác định và đăng ký hình thức thi trực tuyến kết thúc học phần trình Ban Giám hiệu phê duyệt qua phòng Quản lý đào tạo (QLĐT) theo một trong ba lựa chọn sau:
+Hình thức 1: Thi vấn đáp trực tuyến trên ứng dụng Teams
+Hình thức 2: Thi viết tự luận trực tuyến có giám sát trên ứng dụng Teams
+Hình thức 3: Thi viết luận và nộp bài trên hệ thống LMS
+Trường Đại học Kinh tế Quốc dân chỉ tổ chức thi vấn đáp cho học phần có tổng số sinh viên tham gia thi dưới 100 sinh viên.
+Điều 5. Kế hoạch thi
+
+Căn cứ theo kế hoạch học tập Phòng QLĐT xây dựng kế hoạch thi, bao gồm ca thi, phòng thi, danh sách sinh viên theo phòng thi và hình thức thi.
+Phòng QLĐT/Bộ môn/Giáo viên giảng dạy học phần thông báo cho sinh viên kế hoạch thi.
+Phòng KT&ĐBCLGD xây dựng kế hoạch giao nhận đề thi, bài thi, dữ liệu thi và tổ chức thi.
+Trung tâm ứng dụng CNTT, Phòng QTTB căn cứ vào kế hoạch thi để chuẩn bị các điều kiện cơ sở vật chất, tập huấn cho CBCT, giảng viên.
+Điều 6. Đề thi
+
+Trưởng Bộ môn chịu trách nhiệm trực tiếp trước Hiệu trưởng về việc biên soạn đề thi và bảo mật đề thi theo quy định. Đối với hình thức thi vấn đáp và thi viết luận, Trưởng Bộ môn chịu trách nhiệm bảo quản, phát đề thi trong mỗi ca thi.
+Phòng KT&ĐBCLGD chịu trách nhiệm tiếp nhận, phát đề thi cho CBCT và bảo mật đề thi đối với hình thức thi tự luận. Đề thi tự luận khi gửi cho Phòng Khảo thí và ĐBCLGD dưới hình thức tệp Microsoft Word. Bộ môn có thể đặt mật khẩu để bảo mật. Trước ca thi 15p, Trưởng Bộ môn thông báo cho Ban coi thi trực tuyến mật khẩu để mở đề (nếu có).
+Số lượng đề thi tự luận hoặc thi viết luận là 04 đề. Yêu cầu đề thi chỉ được sử dụng một lần cho một ca thi. Trước mỗi ca thi, phòng KT&ĐBCLGD hoặc Trưởng Bộ môn sẽ lựa chọn ngẫu nhiên 01 đề thi được sử dụng cho 01 ca thi.
+Số lượng câu hỏi thi vấn đáp tối thiểu 30 câu hỏi cho 01 ca thi vấn đáp.
+Chương III
+QUY TRÌNH COI THI
+
+Điều 7. Cán bộ coi thi, giảng viên hỏi thi vấn đáp, coi và chấm thi viết luận
+
+CBCT là viên chức, giảng viên cơ hữu của trường, có phẩm chất tốt và kỹ năng sử dụng hệ thống CNTT và các phần mềm thi trực tuyến thành thạo. Danh sách CBCT được Hiệu trưởng ra quyết định.
+CBCT phải chủ động bố trí công việc để thực hiện nhiệm vụ coi thi cho tất cả các môn thi trong kỳ thi mà Nhà trường tổ chức thi.
+CBCT, giảng viên hỏi thi vấn đáp bắt buộc phải tham gia 100% các buổi tập huấn nghiệp vụ sử dụng phần mềm, quy trình coi thi trực tuyến.
+Điều 8. Coi thi tự luận
+
+CBCT phải có mặt tại địa điểm tổ chức thi 15 phút trước khi bắt đầu ca thi để thực hiện điểm danh, kiểm tra thẻ và thông tin người dự thi, phổ biến quy chế và hướng dẫn người dự thi trong phòng thi.
+Trước khi tải đề cho phòng thi, CBCT phổ biến các Quy định về làm bài thi.
+Trong thời gian 5 phút trước khi tính giờ làm bài CBCT nhắc sinh viên đọc đề, kiểm tra sai sót đề thi, kịp thời thông báo cho đại diện Bộ môn trực đề thi.
+Mỗi CBCT được phân công theo dõi 02 máy vi tính được đặt màn hình cạnh nhau, tương đương với 01 phòng thi và theo dõi tối đa 20 sinh viên. Trong đó 01 màn hình hiển thị đề thi hoặc các thông báo của ca thi; 01 màn hình để theo dõi và ghi hình quá trình làm bài thi của sinh viên trong phòng thi.
+CBCT không được rời vị trí trong suốt quá trình sinh viên làm bài, kịp thời phát hiện và thông báo với Ban coi thi trực tuyến các nghi vấn gian lận trong quá trình thi.
+Khi hết giờ thi, CBCT kiểm tra, lưu dữ liệu thi vào đường link được cung cấp, in bài làm của người dự thi. CBCT ký vào từng trang bài làm và danh sách của người dự thi cho vào túi đựng bài thi sau đó dán niêm phong lại túi đựng bài thi và nộp cho Thư ký thu bài; CBCT chịu trách nhiệm về số bài, số tờ giấy thi mà người dự thi nộp, tuyệt đối không được để nhầm lẫn, mất bài thi, nghiêm cấm các hành vi tráo đổi bài thi, nộp thêm bài thi.
+Điều 9. Thi vấn đáp
+
+Trưởng Bộ môn căn cứ kế hoạch thi, phân công giảng viên coi thi vấn đáp, mỗi phòng phỏng vấn bố trí 02 giảng viên.
+Giảng viên chấm thi vấn đáp điểm danh, kiểm tra thông tin sinh viên (phòng thi gồm tối đa 15 sinh viên), cập nhật đề, yêu cầu sinh viên chờ tại phòng chờ phỏng vấn.
+Giảng viên bắt đầu ghi âm, ghi hình buổi phỏng vấn, sau đó tiến hành gọi sinh viên đầu tiên bắt thăm câu hỏi thi, chuẩn bị câu trả lời trong khoảng thời gian 15 phút, trong thời gian chuẩn bị, sinh viên phải bật camera để Giảng viên giám sát. Giảng viên ghi mã đề thi vào danh sách thi.
+Hết thời gian chuẩn bị, Giảng viên gọi sinh viên vào trả lời vấn đáp, đồng thời gọi sinh viên tiếp theo vào bắt thăm câu hỏi thi và chuẩn bị. Quy trình được lặp lại cho đến khi hết sinh viên của ca thi, phòng thi.
+Sau khi kết thúc phỏng vấn giảng viên công bố điểm và yêu cầu sinh viên đăng xuất khỏi phòng phỏng vấn và dừng việc ghi âm, ghi hình, lưu trữ dữ liệu.
+Mỗi phòng phỏng vấn đều được lưu trữ dữ liệu, CBCT lưu file hình ảnh và âm thanh của sinh viên dự thi, ký vào danh sách dự thi.
+Điều 10. Thi viết luận và nộp bài trên hệ thống LMS
+
+Trưởng Bộ môn căn cứ kế hoạch thi, phân công giảng viên coi thi và chấm viết tiểu luận, sau đó gửi danh sách phân công giảng viên cho TTƯDCNTT ít nhất 24 giờ trước giờ thi.
+Trung tâm ƯDCNTT tạo lớp thi trên hệ thống LMS, gán giảng viên và sinh viên vào lớp thi, hoàn thành ít nhất 4 tiếng trước khi diễn ra ca thi. TTƯDCNTT tạo sẵn ca thi với thời gian thi 120 phút, và thời gian nộp bài không quá 15 phút.
+Trước giờ thi ít nhất 15 phút, giảng viên hoàn thành việc tải đề thi lên lớp thi.
+TTƯDCNTT phân công cán bộ trực trong suốt ca thi mỗi cán bộ trực kỹ thuật hỗ trợ không quá 100 sinh viên (tương đương 3 phòng thi) và lưu trữ bài thi khi hết ca thi để đối chiếu, kiểm tra khi cần thiết.
+Mỗi phòng thi viết luận có 01 giảng viên coi thi và đồng thời là giảng viên chấm thi vòng 1. Cán bộ chấm vòng 2 do trưởng bộ môn phân công.
+Chương IV
+CHẤM THI
+
+Điều 11. Tổ chức chấm thi kết thúc học phần
+
+Sau ca thi tự luận, túi đựng bài thi theo phòng thi sẽ được gửi về phòng Khảo thí & ĐBCLGD để ghi vào sổ theo dõi và chuyển về Bộ môn để tổ chức chấm thi.
+Điểm thi vấn đáp được công bố cho sinh viên khi kết thúc thời gian thi của học phần.
+Thi viết tiểu luận trên LMS: Kết thúc ca thi, giảng viên chấm thi truy cập hệ thống LMS và lớp thi để tiến hành chấm bài thi.
+Nhập điểm: sau khi hoàn thành công tác chấm thi xong, Trưởng Bộ môn tổ chức nhập điểm lên hệ thống theo hướng dẫn của Phòng Quản lý đào tạo và quy định hiện hành.
+Điều 12. Công tác lưu trữ bài thi:
+
+Bộ môn lưu trữ bài làm của sinh viên theo quy định của Nhà trường.
+Trung tâm ƯDCNTT phối hợp với phòng QLĐT và phòng KT&ĐBCLGD lưu trữ các thông tin tổ chức thi trong thời gian ít nhất 6 tháng.
+Điều 13. Xem lại bài thi
+
+Sinh viên chỉ được xem lại bài thi đối với thi tự luận và thi viết luận. Quy trình, thủ tục xem lại bài thi thực hiện theo quy định hiện hành.
+
+Chương V
+TỔ CHỨC THỰC HIỆN
+
+Điều 14. Trách nhiệm của cán bộ giám sát thi trực tuyến kết thúc học phần
+
+Phòng KT & ĐBCLGD cử viên chức giám sát quy trình thi trong phòng tổ chức thi và hình ảnh camera của từng sinh viên trong quá trình làm bài thi.
+Ký xác nhận vào biên bản vi phạm quy chế thi và biên bản sự cố trong quá trình thi.
+Điều 15. Trách nhiệm của cán bộ trực kỹ thuật thi trực tuyến kết thúc học phần
+
+Trung tâm ƯDCNTT cử 01 cán bộ trực kỹ thuật thi trực tuyến cho 01 phòng tổ chức thi. Cán bộ này có trách nhiệm đảm bảo đường truyền Internet trong thời gian thi, hướng dẫn quy trình sử dụng phần mềm phục vụ thi trực tuyến, hỗ trợ xử lý sự cố.
+Ký xác nhận vào biên bản vi phạm quy chế thi và biên bản sự cố trong quá trình thi.
+Điều 16. Trách nhiệm của người dự thi trực tuyến kết thúc học phần
+
+Yêu cầu chung
+a) Sinh viên dự thi phải có máy tính hoặc smartphone có cài đặt phần mềm Microsoft Teams (hoặc sử dụng hệ thống trực tuyến https://teams.microsoft.com/) và đã kích hoạt tài khoản Microsoft Teams của cá nhân do Trường cung cấp.
+
+b) Sinh viên cần có thẻ sinh viên của Trường hoặc Chứng minh thư/Căn cước công dân. Sinh viên không có thẻ sinh viên hoặc giấy tờ tùy thân có ảnh hoặc không hiển thị hình ảnh của mình trong phòng thi sẽ không được chấp nhận vào thi.
+
+c) Trang phục khi thi phải đảm bảo lịch sự.
+
+d) Sinh viên cần đăng nhập vào phòng thi trực tuyến bằng tài khoản của Trường đúng thời gian đã quy định để được chấp nhận vào phòng thi.
+
+Thi tự luận trên hệ thống MS Teams
+a) Sinh viên dự thi trực tuyến cần phải có thiết bị kết nối mạng Internet có camera, microphone và phải đảm bảo đường truyền Internet ổn định, đảm bảo giữ hình ảnh và âm thanh của mình trong suốt quá trình thi. Tự chuẩn bị giấy bút, máy tính cá nhân phục vụ cho việc thi theo quy định hiện hành.
+
+b) Trong giờ làm bài, máy tính cách xa tầm với của sinh viên nhưng bảo đảm camera và microphone luôn mở và bao quát được toàn cảnh sinh viên ngồi làm bài. Sinh viên phải bật loa của máy tính trong toàn bộ thời gian thi để nghe các hướng dẫn của CBCT.
+
+c) Các hành vi bị nghiêm cấm khi thi được thực hiện như thi tập trung bao gồm: không sử dụng điện thoại di động trong quá trình làm bài, không gây ồn ào trong phòng thi, hoặc trao đổi bài thi với bất kỳ ai hoặc các hành vi gian lận khác. Khi có câu hỏi, thắc mắc, sinh viên nói vào phòng thi để được CBCT hướng dẫn, trả lời. Sinh viên không được rời khỏi phạm vi quan sát của camera.
+
+d) Trước khi bắt đầu làm bài 15 phút, cán bộ coi thi sẽ chiếu đề thi trên màn hình máy tính để sinh viên xem và chép đề. Đối với những bảng biểu phức tạp, sẽ được CBCT chiếu trong quá trình thi để thí sinh sử dụng.
+
+e) Sinh viên nộp bài bằng cách chụp ảnh rõ nét và chuyển lên phần mềm. Thời gian cho phép để chụp ảnh và nộp bài là 10 phút. Quá thời gian thi nếu sinh viên không nộp bài coi như là sinh viên vắng thi và nhận điểm 0.
+
+Thí sinh làm bài trên trang giấy A4 và phải có thông tin cá nhân và mã số đề thi như trong phụ lục đính kèm.
+Thi vấn đáp
+Sinh viên phải đảm bảo luôn có mặt và xuất trình giấy tờ tùy thân khi được yêu cầu vào phòng phỏng vấn (phòng thi trong môi trường trực tuyến). Ngoài câu hỏi chính, giảng viên hỏi vấn đáp có thể hỏi thêm các câu hỏi phụ.
+
+Làm bài thi luận
+Trong quá trình làm bài thi tiểu luận, sinh viên phải thực hiện đúng thời gian nộp bài được quy định, đảm bảo tính liêm chính.
+
+Điều 17. Xử lý vi phạm trong công tác tổ chức thi trực tuyến kết thúc học phần
+
+Các đơn vị, cá nhân tham gia vào công tác tổ chức thi trực tuyến kết thúc học phần của trường Đại học Kinh tế Quốc dân nếu không tuân thủ các điều khoản, quy trình, nhiệm vụ của Quy định này, tùy theo mức độ vi phạm sẽ bị xử lý kỷ luật theo các Quy định, Quy chế hiện hành của Bộ Giáo dục & Đào tạo và của trường Đại học Kinh tế Quốc dân.
+
+Điều 18. Phân công nhiệm vụ
+
+Bộ môn đăng ký hình thức thi trực tuyến qua phòng QLĐT. Trưởng các Khoa/Viện, Bộ môn và các đơn vị quản lý đào tạo liên quan có trách nhiệm tổ chức, quán triệt, theo dõi và đôn đốc giảng viên, viên chức của đơn vị thực hiện nghiêm túc Quy định này.
+Phòng KT&ĐBCLGD là đơn vị thường trực trong công tác khảo thí của trường Đại học Kinh tế Quốc dân.
+Phòng QLĐT xây dựng phương án và lịch thi, phối hợp với Trung tâm Ứng dụng CNTT thông báo đến sinh viên nội dung quy định tạm thời, quy trình thi theo hình thức trực tuyến; tổ chức cho sinh viên đăng ký thi; tổng hợp số liệu sinh viên đăng ký thi.
+Phòng Tổ chức cán bộ trình BGH ra quyết định Ban coi thi trực tuyến theo đề xuất của phòng KT&ĐBCLGD.
+Trung tâm Ứng dụng công nghệ thông tin có trách nhiệm soạn thảo tài liệu và hướng dẫn tập huấn phần mềm cho các cán bộ và sinh viên; lưu trữ dữ liệu thi.
+Phòng Thanh tra - Pháp chế có trách nhiệm phối hợp cùng các đơn vị liên quan tổ chức theo dõi, kiểm tra việc thực hiện theo các khâu được quy định. Tổng hợp báo cáo, trình Ban Giám hiệu xử lý kịp thời theo đúng các Quy định hiện hành.
+Phòng Truyền thông, Phòng Công tác chính trị và quản lý sinh viên thực hiện các hoạt động truyền thông: tiếp nhận và giải đáp các thắc mắc của sinh viên; đảm bảo quyền lợi của sinh viên.
+Phòng Tài chính - Kế toán có trách nhiệm hướng dẫn các đơn vị, cá nhân thực hiện các thủ tục thanh quyết toán liên quan tới công tác tổ chức thi học phần và thực hiện chi trả theo Quy định và Quy chế thu chi nội bộ của Trường.
+Phòng Quản trị thiết bị bố trí đầy đủ trang thiết bị, như máy in, mực in, giấy in để in file ảnh bài thi của người dự thi sau khi kết thúc ca thi.
+Quy định này có hiệu lực từ ngày ký. Trong quá trình thực hiện nếu có vướng mắc hoặc phát sinh những vấn đề mới cần điều chỉnh, bổ sung, các Khoa/Viện, Bộ môn báo cáo bằng văn bản tới Hiệu trưởng qua đơn vị quản lý đào tạo liên quan để xem xét quyết định.
+HIỆU TRƯỞNG
+PGS.TS Phạm Hồng Chương
