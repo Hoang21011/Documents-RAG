@@ -22,14 +22,10 @@ class Generation:
         base_dir_env = os.getenv("BASE_DIR", "/Users/nghia/Documents/khoa_luan_tot_nghiep")
         self.base_dir = Path(base_dir_env)
         
-        # 1. Initialize Redis
-        redis_host = os.getenv("REDIS_HOST", "localhost")
-        redis_port = int(os.getenv("REDIS_PORT", 6379))
-        print(f"Connecting to Redis at {redis_host}:{redis_port}...")
-        
-        if Generation._redis_client is None:
-            Generation._redis_client = redis.Redis(host=redis_host, port=redis_port, db=0, decode_responses=True)
-        self.redis = Generation._redis_client
+        # 1. Initialize DatabaseManager (Redis)
+        from database.connection import DatabaseManager
+        self.db_manager = DatabaseManager()
+        self.redis = self.db_manager.get_redis()
             
         # 2. Load System Prompt
         prompt_path = self.base_dir / "system_prompt.txt"
@@ -73,7 +69,7 @@ class Generation:
         # 1. Fetch Context
         context = self.redis.get(f"context:{session_id}")
         if not context:
-            return "Lỗi: Không tìm thấy ngữ cảnh (Context) trong bộ nhớ Redis."
+            context = "" # Không in lỗi, để trống cho prompt tự trả lời "Không đủ dữ liệu."
             
         # 2. Check Failure Threshold
         failure_key = f"failures:{session_id}"
