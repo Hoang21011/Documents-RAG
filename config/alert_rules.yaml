@@ -1,0 +1,33 @@
+groups:
+  - name: RAG_System_Alerts
+    rules:
+      # Error Alert: Khi Ollama bị sập hoặc Milvus không kết nối được
+      - alert: ServiceDownAlert
+        expr: up{job="ollama"} == 0 or up{job="milvus"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          owner: "@platform_oncall"
+        annotations:
+          title: "Critical Service {{ $labels.job }} Down"
+          summary: "Dịch vụ {{ $labels.job }} đang bị ngắt kết nối"
+          description: "Ollama đã bị sập hoặc Milvus không thể kết nối được trong 1 phút qua."
+          impact: "Tính năng RAG bị gián đoạn toàn bộ do không thể truy xuất embeddings hoặc LLM."
+          trace_link: "https://langfuse.yourdomain.com/project/traces?tags={{ $labels.job }}"
+          runbook_link: "https://wiki.yourdomain.com/runbooks/rag-service-down"
+
+      # Threshold Alert: Khi thời gian phản hồi vượt quá 10 giây
+      - alert: HighLatencyThresholdAlert
+        # Ví dụ sử dụng metric request_latency_ms, khi trung bình > 10000ms (10 giây)
+        expr: rate(request_latency_ms_sum[1m]) / rate(request_latency_ms_count[1m]) > 10000
+        for: 1m
+        labels:
+          severity: warning
+          owner: "@platform_oncall"
+        annotations:
+          title: "High Latency Detected (> 10s)"
+          summary: "Thời gian phản hồi hệ thống quá cao"
+          description: "Thời gian phản hồi đã vượt quá 10 giây. Cảnh báo: MacBook có thể đang quá nóng hoặc hệ thống đang thiếu RAM để xử lý LLM."
+          impact: "Trải nghiệm người dùng chậm trễ đáng kể. Có nguy cơ crash OOM (Out of Memory)."
+          trace_link: "https://langfuse.yourdomain.com/project/traces?tags=latency_issues"
+          runbook_link: "https://wiki.yourdomain.com/runbooks/rag-high-latency"

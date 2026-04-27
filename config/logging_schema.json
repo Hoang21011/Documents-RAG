@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Logging Schema",
+  "type": "object",
+  "properties": {
+    "ts": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Thời gian xảy ra sự kiện (Timestamp)"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["INFO", "WARN", "ERROR"],
+      "description": "Mức độ log (INFO, WARN, ERROR)"
+    },
+    "service": {
+      "type": "string",
+      "description": "Tên service tạo ra log (VD: ollama, milvus, backend)"
+    },
+    "event": {
+      "type": "string",
+      "description": "Tên hoặc mô tả sự kiện"
+    },
+    "model": {
+      "type": "string",
+      "description": "Tên mô hình LLM đang sử dụng"
+    },
+    "env": {
+      "type": "string",
+      "description": "Môi trường (VD: dev, prod)"
+    },
+    "latency_ms": {
+      "type": "number",
+      "description": "Thời gian phản hồi tính bằng mili-giây"
+    },
+    "token_in_out": {
+      "type": "object",
+      "properties": {
+        "input_tokens": {
+          "type": "integer"
+        },
+        "output_tokens": {
+          "type": "integer"
+        }
+      },
+      "description": "Số lượng token đầu vào và đầu ra"
+    }
+  },
+  "required": [
+    "ts",
+    "level",
+    "service",
+    "event",
+    "env"
+  ]
+}
