@@ -25,11 +25,11 @@ export default function App() {
         <div className={styles.messagesArea} id="messages-area">
           {messages.length === 0 && (
             <div className={styles.empty}>
-              <p className={styles.emptyIcon}>⚖️</p>
-              <h2 className={styles.emptyTitle}>Trợ lý Pháp luật AI</h2>
+              <p className={styles.emptyIcon}>🎓</p>
+              <h2 className={styles.emptyTitle}>Chatbot Tra cứu Quy Chế</h2>
               <p className={styles.emptySub}>
-                Đặt câu hỏi về văn bản quy định, nội quy, hay chính sách —<br />
-                tôi sẽ truy xuất và tổng hợp câu trả lời kèm trích dẫn nguồn.
+                Hỏi bất kỳ quy định, quy chế, nội quy của Trường ĐH Kinh tế Quốc dân —<br />
+                hệ thống sẽ tra cứu và tổng hợp kết quả kèm nguồn trích dẫn chính xác.
               </p>
             </div>
           )}

@@ -1,25 +1,25 @@
-/* ─── Design Tokens ─────────────────────────────────────────────────── */
+/* ─── Design Tokens – NEU Light Theme ───────────────────────────────── */
 :root {
-  --bg-primary:   #0f1117;
-  --bg-secondary: #161b27;
-  --bg-card:      #1e2435;
-  --bg-input:     #252d40;
-  --border:       #2d3650;
-  --accent:       #4f8ef7;
-  --accent-hover: #3a78e8;
-  --accent-glow:  rgba(79, 142, 247, 0.15);
-  --warn:         #f5a623;
-  --warn-bg:      rgba(245, 166, 35, 0.12);
-  --success:      #22c55e;
-  --text-primary: #e8eaf2;
-  --text-secondary: #8892b0;
-  --text-muted:   #4a5578;
+  --bg-primary:   #FFFFFF;
+  --bg-secondary: #EBF5FF;
+  --bg-card:      #F3F8FF;
+  --bg-input:     #F0F7FF;
+  --border:       #BFDBF7;
+  --accent:       #0056A3;
+  --accent-hover: #004080;
+  --accent-glow:  rgba(0, 86, 163, 0.10);
+  --warn:         #D97706;
+  --warn-bg:      rgba(217, 119, 6, 0.10);
+  --success:      #16A34A;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --text-muted:   #9CA3AF;
   --radius-sm:    6px;
   --radius-md:    12px;
   --radius-lg:    18px;
   --font:         'Inter', sans-serif;
-  --shadow:       0 4px 24px rgba(0,0,0,0.35);
-  --shadow-glow:  0 0 20px rgba(79,142,247,0.2);
+  --shadow:       0 2px 12px rgba(0, 86, 163, 0.10);
+  --shadow-glow:  0 0 16px rgba(0, 86, 163, 0.18);
 }
 
 /* ─── Reset & Base ──────────────────────────────────────────────────── */

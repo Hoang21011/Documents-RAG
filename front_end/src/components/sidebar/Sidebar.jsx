@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import styles from './Sidebar.module.css'
 
 const SUGGESTED = [
@@ -11,10 +12,10 @@ export default function Sidebar({ onSelect, onClear }) {
   return (
     <aside className={styles.sidebar} id="sidebar">
       <div className={styles.brand}>
-        <span className={styles.brandIcon}>⚖️</span>
+        <span className={styles.brandIcon}>🎓</span>
         <div>
-          <h1 className={styles.brandName}>LegalRAG</h1>
-          <p className={styles.brandSub}>Trợ lý Pháp luật AI</p>
+          <h1 className={styles.brandName}>NEU Connect</h1>
+          <p className={styles.brandSub}>Tra cứu Quy Chế Nhà Trường</p>
         </div>
       </div>
 
@@ -38,7 +39,7 @@ export default function Sidebar({ onSelect, onClear }) {
           🗑 Cuộc trò chuyện mới
         </button>
         <p className={styles.footer}>
-          Powered by Qwen2.5-7B · Milvus · Redis
+          © 2025 NEU Connect · Powered by Milvus + Qwen2.5
         </p>
       </div>
     </aside>
