@@ -1,0 +1,78 @@
+name: CI/CD Pipeline – NEU Connect RAG
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ─────────────────────────────────────────────────────────────────────
+  # Job 1: Lint & Unit Tests (Python)
+  # ─────────────────────────────────────────────────────────────────────
+  test-backend:
+    name: Backend Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov flake8
+
+      - name: Lint with flake8
+        run: |
+          # Dừng nếu có lỗi cú pháp nghiêm trọng (E9, F63, F7, F82)
+          flake8 src/ api/ database/ monitor/ --count --select=E9,F63,F7,F82 --show-source --statistics
+          # Cảnh báo cho các vấn đề khác (không làm fail build)
+          flake8 src/ api/ database/ monitor/ --count --exit-zero --max-line-length=120 --statistics
+
+      - name: Run API health check (import test)
+        run: |
+          PYTHONPATH=. python -c "
+          from api.main import app
+          print('FastAPI app imported OK')
+          "
+
+  # ─────────────────────────────────────────────────────────────────────
+  # Job 2: Build & Lint Frontend (React)
+  # ─────────────────────────────────────────────────────────────────────
+  test-frontend:
+    name: Frontend Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: front_end/package-lock.json
+
+      - name: Install frontend dependencies
+        run: |
+          cd front_end
+          npm ci
+
+      - name: Build frontend (production)
+        run: |
+          cd front_end
+          npm run build
+
+      - name: Build frontend (production)
+        run: |
+          cd front_end
+          npm run build
