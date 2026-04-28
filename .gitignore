@@ -2,3 +2,4 @@ data/
 .env
 src/__pycache__
 logs/
+LLM/

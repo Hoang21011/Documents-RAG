@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Nhân viên mới trong 30 ngày đầu được cấp quyền truy cập mức nào?",
+    "expected_answer": "Nhân viên mới trong 30 ngày đầu được cấp quyền Level 1 - Read Only.",
+    "context": "Level 1 — Read Only: Áp dụng cho tất cả nhân viên mới trong 30 ngày đầu.",
+    "metadata": {
+      "difficulty": "easy",
+      "type": "fact-check",
+      "expected_retrieval_ids": ["access_control_sop"]
+    }
+  }
+]
