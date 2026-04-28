@@ -1,0 +1,70 @@
+.sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  gap: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.brandIcon { font-size: 1.8rem; }
+.brandName {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.brandSub { font-size: 0.73rem; color: var(--text-muted); }
+
+.nav { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.sectionLabel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 8px;
+}
+
+.suggestion {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  font-size: 0.8rem;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+  line-height: 1.4;
+}
+.suggestion:hover { background: var(--bg-card); color: var(--text-primary); }
+.suggestionIcon { flex-shrink: 0; margin-top: 1px; }
+
+.bottom { margin-top: auto; display: flex; flex-direction: column; gap: 12px; }
+
+.clearBtn {
+  width: 100%;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 9px;
+  font-size: 0.82rem;
+  transition: border-color 0.15s, color 0.15s;
+}
+.clearBtn:hover { border-color: var(--accent); color: var(--accent); }
+
+.footer { font-size: 0.68rem; color: var(--text-muted); text-align: center; }
