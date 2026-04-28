@@ -2,9 +2,9 @@ name: CI/CD Pipeline – NEU Connect RAG
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main, test]
   pull_request:
-    branches: [main]
+    branches: [main, test]
 
 jobs:
   # ─────────────────────────────────────────────────────────────────────
