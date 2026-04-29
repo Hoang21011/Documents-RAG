@@ -7,6 +7,7 @@ from monitor.tracing import RAGTracer
 from datetime import datetime
 from typing import List, Dict, Any, Generator
 import json
+import time
 
 class Orchestrator:
     def __init__(self):
@@ -52,6 +53,7 @@ class Orchestrator:
           - error:      thông báo lỗi
         """
         try:
+            start_total = time.time()
             self.logger.info(f"New query received: {query}", extra={"model": "qwen2.5-7b"})
 
             # Trace
@@ -62,20 +64,25 @@ class Orchestrator:
 
             # ── Step 1: Retrieval ─────────────────────────────────────────
             yield json.dumps({"type": "step", "message": "🔍 Đang tìm kiếm tài liệu liên quan..."})
-
+            start_ret = time.time()
+            
             top_k = 5
             alpha = 0.4
             lambda_mult = 0.5
 
             results = self.retriever.search(query, filter_dict=filter_dict, top_k=top_k, alpha=alpha)
+            retrieval_time = round(time.time() - start_ret, 3)
             contexts_for_ragas = [chunk["content"] for chunk in results]
 
             # ── Step 2: MMR Rerank ────────────────────────────────────────
             yield json.dumps({"type": "step", "message": "📊 Đang xếp hạng và lọc thông tin..."})
+            start_rerank = time.time()
 
             reranked = self.formatter.mmr_rerank(query, results, lambda_mult)
             reordered = self.formatter.lost_in_the_middle_reorder(reranked)
             enriched_chunks = self._enrich_chunks(reordered)
+            
+            rerank_time = round(time.time() - start_rerank, 3)
 
             # Gửi sources ngay sau khi có để frontend render Citations panel
             yield json.dumps({"type": "sources", "chunks": enriched_chunks})
@@ -86,11 +93,15 @@ class Orchestrator:
 
             # ── Step 3: Generation (streaming tokens) ────────────────────
             yield json.dumps({"type": "step", "message": "🤖 Đang tổng hợp câu trả lời..."})
+            start_gen = time.time()
 
             full_answer = ""
             for token in self.generator.generate_stream(query, session_id):
                 full_answer += token
                 yield json.dumps({"type": "token", "content": token})
+            
+            generation_time = round(time.time() - start_gen, 3)
+            total_time = round(time.time() - start_total, 3)
 
             # ── Step 4: Lưu Redis + MongoDB ────────────────────────────────
             redis_client = self.db_manager.get_redis()
@@ -107,8 +118,14 @@ class Orchestrator:
                     "contexts": contexts_for_ragas,
                     "timestamp": datetime.now(),
                     "filters": filter_dict,
+                    "latency": {
+                        "retrieval": retrieval_time,
+                        "rerank": rerank_time,
+                        "generation": generation_time,
+                        "total": total_time
+                    }
                 })
-                self.logger.info("Saved query logs to MongoDB")
+                self.logger.info(f"Pipeline finished in {total_time}s (Ret: {retrieval_time}s, Rerank: {rerank_time}s, Gen: {generation_time}s)")
             except Exception as e:
                 self.logger.error(f"MongoDB save failed: {e}", exc_info=True)
 
