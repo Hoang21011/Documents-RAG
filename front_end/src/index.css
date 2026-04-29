@@ -1,0 +1,41 @@
+/* ─── Design Tokens – NEU Light Theme ───────────────────────────────── */
+:root {
+  --bg-primary:   #FFFFFF;
+  --bg-secondary: #EBF5FF;
+  --bg-card:      #F3F8FF;
+  --bg-input:     #F0F7FF;
+  --border:       #BFDBF7;
+  --accent:       #0056A3;
+  --accent-hover: #004080;
+  --accent-glow:  rgba(0, 86, 163, 0.10);
+  --warn:         #D97706;
+  --warn-bg:      rgba(217, 119, 6, 0.10);
+  --success:      #16A34A;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --text-muted:   #9CA3AF;
+  --radius-sm:    6px;
+  --radius-md:    12px;
+  --radius-lg:    18px;
+  --font:         'Inter', sans-serif;
+  --shadow:       0 2px 12px rgba(0, 86, 163, 0.10);
+  --shadow-glow:  0 0 16px rgba(0, 86, 163, 0.18);
+}
+
+/* ─── Reset & Base ──────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+body {
+  font-family: var(--font);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+button { cursor: pointer; border: none; font-family: var(--font); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

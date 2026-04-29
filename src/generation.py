@@ -39,8 +39,7 @@ class Generation:
             except ImportError:
                 raise ImportError("Please install llama-cpp-python first.")
                 
-            # Pointing to the first part of the split model. llama.cpp will load all parts automatically.
-            model_path_env = os.getenv("LLM_MODEL_PATH", "data/LLM/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf")
+            model_path_env = os.getenv("LLM_MODEL_PATH", "LLM/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf")
             if model_path_env.startswith("./"):
                 model_path = self.base_dir / model_path_env[2:]
             elif not model_path_env.startswith("/"):
@@ -50,16 +49,22 @@ class Generation:
                 
             print(f"Loading GGUF model from {model_path}...")
             
-            Generation._llm = Llama(
-                model_path=str(model_path),
-                n_gpu_layers=-1, # Accelerate using Metal on Mac
-                n_ctx=4096,      # Context size
-                verbose=False
-            )
+            if not model_path.exists():
+                print(f"[CẢNH BÁO] Không tìm thấy file GGUF tại {model_path}. "
+                      "Hệ thống chạy ở chế độ không có LLM (chỉ retrieval).")
+                Generation._llm = None
+            else:
+                Generation._llm = Llama(
+                    model_path=str(model_path),
+                    n_gpu_layers=-1,
+                    n_ctx=4096,
+                    verbose=False
+                )
         self.llm = Generation._llm
         
         self.failure_threshold = 3
         self._initialized = True
+
 
     def cache_context(self, session_id: str, context: str):
         """Helper function to mock/store context into Redis before Generation"""
@@ -79,6 +84,9 @@ class Generation:
             return "Tôi không thể tìm thấy thông tin bạn cần. Vui lòng liên hệ bộ phận hỗ trợ hoặc chuyên viên con người qua email support@example.com hoặc hotline 1900-xxxx để được trợ giúp."
             
         # 3. Prepare Prompt for Qwen2.5
+        if self.llm is None:
+            return "[Hệ thống đang chạy không có LLM] Model GGUF chưa được tải."
+
         messages = [
             {"role": "system", "content": self.system_prompt},
             {"role": "user", "content": f"NGỮ CẢNH:\n{context}\n\nCÂU HỎI:\n{query}"}
@@ -88,7 +96,7 @@ class Generation:
         response = self.llm.create_chat_completion(
             messages=messages,
             max_tokens=1024,
-            temperature=0.1, # Rất thấp để tránh bịa đặt thông tin
+            temperature=0.1,
             top_p=0.9
         )
         
@@ -96,15 +104,61 @@ class Generation:
         
         # 4. Handle Strict Fallback Logic
         if "Không đủ dữ liệu" in answer:
-            # Increment failure count
             self.redis.incr(failure_key)
             self.redis.expire(failure_key, 3600)
             return "Không đủ dữ liệu."
         else:
-            # Reset failures on success
             self.redis.set(failure_key, 0)
             
         return answer
+
+    def generate_stream(self, query: str, session_id: str = "default"):
+        """
+        Generator yielding real tokens from llama.cpp (stream=True).
+        Also returns full accumulated answer at the end via StopIteration value.
+        """
+        context = self.redis.get(f"context:{session_id}") or ""
+        
+        failure_key = f"failures:{session_id}"
+        failures = int(self.redis.get(failure_key) or 0)
+        if failures >= self.failure_threshold:
+            fallback = ("Tôi không thể tìm thấy thông tin bạn cần. "
+                        "Vui lòng liên hệ bộ phận hỗ trợ qua email hoặc hotline 1900-xxxx.")
+            yield fallback
+            return
+
+        if self.llm is None:
+            yield "[LLM chưa được tải] Các tài liệu liên quan đã hiển thị ở phần References."
+            return
+
+        messages = [
+            {"role": "system", "content": self.system_prompt},
+            {"role": "user", "content": f"NGỮ CẢNH:\n{context}\n\nCÂU HỎI:\n{query}"}
+        ]
+        
+        full_answer = ""
+        stream = self.llm.create_chat_completion(
+            messages=messages,
+            max_tokens=1024,
+            temperature=0.1,
+            top_p=0.9,
+            stream=True          # ← Real token streaming
+        )
+        
+        for chunk in stream:
+            delta = chunk["choices"][0].get("delta", {})
+            token = delta.get("content", "")
+            if token:
+                full_answer += token
+                yield token          # Emit each token as it arrives
+
+        # Fallback tracking after stream completes
+        if "Không đủ dữ liệu" in full_answer:
+            self.redis.incr(failure_key)
+            self.redis.expire(failure_key, 3600)
+        else:
+            self.redis.set(failure_key, 0)
+
 
 if __name__ == "__main__":
     from src.rerank_and_format_chunks import RerankerAndFormatter
