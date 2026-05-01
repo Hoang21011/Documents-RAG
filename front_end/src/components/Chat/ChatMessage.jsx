@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { CitationText } from './CitationPopup'
 import { StreamingCursor, StepIndicator } from './StreamingText'
 import { formatMetadata } from '../../utils/citationUtils'
@@ -10,55 +12,66 @@ import styles from './ChatMessage.module.css'
  */
 function SourceCard({ chunk }) {
   const [expanded, setExpanded] = useState(false)
+  const [metaExpanded, setMetaExpanded] = useState(false)
+
+  // Giới hạn snippet ban đầu khoảng 250 ký tự hoặc 3 dòng
+  const snippet = chunk.content.length > 250 && !expanded 
+    ? chunk.content.slice(0, 250) + "..." 
+    : chunk.content
 
   return (
     <div className={`${styles.sourceCard} ${chunk.low_relevance ? styles.lowRelevance : ''}`}>
       <div className={styles.sourceHeader}>
-        <span className={styles.sourceIndex}>[{chunk.id}]</span>
-        {chunk.low_relevance && (
-          <span className={styles.warnBadge}>⚠ Độ liên quan thấp</span>
-        )}
-        <span className={styles.sourceScore}>{(chunk.score * 100).toFixed(0)}% liên quan</span>
-      </div>
-
-      <p className={styles.sourceMeta}>{formatMetadata(chunk.metadata)}</p>
-
-      {/* Snippet preview */}
-      <p className={styles.sourceSnippet}>
-        {expanded ? chunk.content : chunk.content.slice(0, 200) + (chunk.content.length > 200 ? '…' : '')}
-      </p>
-
-      <div className={styles.sourceActions}>
-        {/* Toggle full content inline */}
-        <button
-          className={styles.sourceLink}
-          onClick={() => setExpanded(v => !v)}
-        >
-          {expanded ? '↑ Thu gọn' : '📄 Xem tài liệu gốc'}
-        </button>
-
-        {/* Copy snippet */}
-        <button
+        <div className={styles.sourceInfo}>
+          <span className={styles.sourceIndex}>[{chunk.id}]</span>
+          <span className={styles.sourceScore}>{(chunk.score * 100).toFixed(0)}% liên quan</span>
+          {chunk.low_relevance && (
+            <span className={styles.warnBadge}>⚠ Thấp</span>
+          )}
+        </div>
+        <button 
           className={styles.sourceCopy}
           onClick={() => navigator.clipboard.writeText(chunk.content)}
-          title="Sao chép nội dung"
+          title="Sao chép"
         >
           📋
         </button>
       </div>
 
-      {/* Additional metadata when expanded */}
-      {expanded && chunk.metadata && (
-        <div className={styles.sourceMeta} style={{ marginTop: 8, borderTop: '1px solid var(--border)', paddingTop: 8 }}>
+      <p className={styles.sourceMeta}>{formatMetadata(chunk.metadata)}</p>
+
+      <p className={styles.sourceSnippet}>
+        {snippet}
+        {chunk.content.length > 250 && (
+          <button 
+            className={styles.expandBtn} 
+            onClick={() => setExpanded(!expanded)}
+          >
+            {expanded ? "Thu gọn" : "Xem thêm"}
+          </button>
+        )}
+      </p>
+
+      <div className={styles.sourceActions}>
+        <button
+          className={styles.sourceLink}
+          onClick={() => setMetaExpanded(!metaExpanded)}
+        >
+          {metaExpanded ? '↑ Ẩn chi tiết' : '📄 Chi tiết nguồn'}
+        </button>
+      </div>
+
+      {metaExpanded && chunk.metadata && (
+        <div className={styles.metaDetails}>
           {chunk.metadata.source && <div>📁 <strong>File:</strong> {chunk.metadata.source}</div>}
           {chunk.metadata.ngay_ban_hanh && <div>📅 <strong>Ngày ban hành:</strong> {chunk.metadata.ngay_ban_hanh}</div>}
-          {chunk.metadata.ngay_co_hieu_luc && <div>✅ <strong>Hiệu lực:</strong> {chunk.metadata.ngay_co_hieu_luc}</div>}
           {chunk.metadata.pham_vi && <div>🌐 <strong>Phạm vi:</strong> {chunk.metadata.pham_vi}</div>}
         </div>
       )}
     </div>
   )
 }
+
 
 /**
  * ChatMessage – renders one message bubble (user or assistant).
@@ -94,12 +107,15 @@ export default function ChatMessage({ message }) {
         {/* Answer content with inline citations */}
         {hasContent && (
           <div className={styles.answerText}>
-            {lines.map((line, i) => (
-              <span key={i}>
-                <CitationText text={line} chunks={chunks} />
-                {i < lines.length - 1 && <br />}
-              </span>
-            ))}
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              components={{
+                p: ({node, ...props}) => <CitationText text={props.children} chunks={chunks} />,
+                li: ({node, ...props}) => <li><CitationText text={props.children} chunks={chunks} /></li>,
+              }}
+            >
+              {content}
+            </ReactMarkdown>
             {!done && <StreamingCursor />}
           </div>
         )}

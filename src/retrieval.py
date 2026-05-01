@@ -37,7 +37,18 @@ class Retrieval:
             self.db_uri = db_uri_env
             
         self.collection_name = os.getenv("MILVUS_COLLECTION_NAME", "legal_docs_collection")
-        self.client = MilvusClient(uri=self.db_uri)
+        
+        # Thêm retry và timeout cho Milvus để tránh GOAWAY too_many_pings
+        try:
+            self.client = MilvusClient(
+                uri=self.db_uri,
+                timeout=30 # Tăng timeout
+            )
+        except Exception as e:
+            print(f"[Retrieval] Milvus init failed: {e}. Retrying...")
+            import time
+            time.sleep(1)
+            self.client = MilvusClient(uri=self.db_uri)
         
         # Load Dense Model
         if Retrieval._embeddings_model is None:
@@ -75,11 +86,18 @@ class Retrieval:
                 conditions.append(f"{k} == {v}")
         return " and ".join(conditions)
 
-    def search(self, query: str, filter_dict: Dict[str, str] = None, top_k: int = 5, alpha: float = 0.4) -> List[Dict[str, Any]]:
+    def search(self, query: str, chat_history: List[str] = None, filter_dict: Dict[str, str] = None, top_k: int = 5, alpha: float = 0.4) -> List[Dict[str, Any]]:
+        # Xử lý Context Drift bằng cách gộp lịch sử ngắn vào query (simple approach)
+        enriched_query = query
+        if chat_history and len(chat_history) > 0:
+            # Lấy tối đa 2 câu gần nhất để tránh noise
+            recent_history = " ".join(chat_history[-2:])
+            enriched_query = f"{recent_history} {query}"
+
         milvus_filter_expr = self._build_milvus_filter(filter_dict)
         
         # 1. Dense query
-        query_vector = self.embeddings.embed_query(query)
+        query_vector = self.embeddings.embed_query(enriched_query)
         req_dense = AnnSearchRequest(
             data=[query_vector],
             anns_field="vector",
@@ -89,7 +107,7 @@ class Retrieval:
         )
         
         # 2. Sparse query
-        sparse_csr = self.bm25_ef.encode_queries([query]).tocsr()
+        sparse_csr = self.bm25_ef.encode_queries([enriched_query]).tocsr()
         start, end = sparse_csr.indptr[0], sparse_csr.indptr[1]
         sparse_dict = {int(idx): float(val) for idx, val in zip(sparse_csr.indices[start:end], sparse_csr.data[start:end])}
         
