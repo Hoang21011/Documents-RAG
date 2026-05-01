@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { CitationText } from './CitationPopup'
 import { StreamingCursor, StepIndicator } from './StreamingText'
 import { formatMetadata } from '../../utils/citationUtils'
@@ -105,12 +107,15 @@ export default function ChatMessage({ message }) {
         {/* Answer content with inline citations */}
         {hasContent && (
           <div className={styles.answerText}>
-            {lines.map((line, i) => (
-              <span key={i}>
-                <CitationText text={line} chunks={chunks} />
-                {i < lines.length - 1 && <br />}
-              </span>
-            ))}
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              components={{
+                p: ({node, ...props}) => <CitationText text={props.children} chunks={chunks} />,
+                li: ({node, ...props}) => <li><CitationText text={props.children} chunks={chunks} /></li>,
+              }}
+            >
+              {content}
+            </ReactMarkdown>
             {!done && <StreamingCursor />}
           </div>
         )}

@@ -5,21 +5,14 @@ load_dotenv()
 
 class RAGTracer:
     """
-    Wrapper cho Langfuse SDK v4+ để ghi trace pipeline RAG.
-    
-    Thư mục liên quan:
-      - monitor/tracing.py  ← file này (định nghĩa)
-      - src/orchestrator.py ← nơi gọi create_trace() / flush()
-      - Langfuse Dashboard  ← nơi xem kết quả (LANGFUSE_BASE_URL trong .env)
+    Wrapper cho Langfuse SDK để ghi trace pipeline RAG.
     """
     
     def __init__(self, env: str = "dev", tier: str = "free"):
         self.env = env
         self.tier = tier
         self._langfuse = None
-        self._current_trace_ctx = None
         
-        # Chỉ khởi tạo nếu có đủ config
         has_config = (
             os.getenv("LANGFUSE_PUBLIC_KEY") and
             os.getenv("LANGFUSE_SECRET_KEY")
@@ -27,35 +20,49 @@ class RAGTracer:
         if has_config:
             try:
                 from langfuse import Langfuse
-                self._langfuse = Langfuse()
+                # Khởi tạo đối tượng Langfuse với các tham số tường minh
+                self._langfuse = Langfuse(
+                    public_key=os.getenv("LANGFUSE_PUBLIC_KEY"),
+                    secret_key=os.getenv("LANGFUSE_SECRET_KEY"),
+                    host=os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com")
+                )
             except Exception as e:
                 print(f"[Tracing] Không thể khởi tạo Langfuse: {e}")
 
     def create_trace(self, name: str, feature: str, model: str,
                      session_id: str = None, user_id: str = None):
         """
-        Tạo trace mới bằng Langfuse v4 API (start_observation).
-        Trả về context manager để dùng với `with` hoặc tự động flush.
+        Tạo trace mới. 
+        Sử dụng cú pháp langfuse.trace(name=...) hoặc langfuse.span(...) theo gợi ý.
         """
         if self._langfuse is None:
             return None
         
         try:
-            ctx = self._langfuse.start_observation(
-                name=name,
-                type="trace",
-                session_id=session_id,
-                user_id=user_id,
-                metadata={
-                    "env": self.env,
-                    "feature": feature,
-                    "tier": self.tier,
-                    "model": model,
-                },
-                tags=[self.env, feature, self.tier, model],
-            )
-            self._current_trace_ctx = ctx
-            return ctx
+            # Ưu tiên dùng .trace(name=...)
+            if hasattr(self._langfuse, 'trace'):
+                return self._langfuse.trace(
+                    name=name,
+                    session_id=session_id,
+                    user_id=user_id,
+                    metadata={
+                        "env": self.env,
+                        "feature": feature,
+                        "model": model,
+                    }
+                )
+            
+            # Thử dùng .span(...)
+            elif hasattr(self._langfuse, 'span'):
+                return self._langfuse.span(
+                    name=name, 
+                    session_id=session_id
+                )
+            
+            else:
+                print(f"[Tracing] Langfuse object thiếu phương thức trace/span.")
+                return None
+                
         except Exception as e:
             print(f"[Tracing] Lỗi khi tạo trace: {e}")
             return None

@@ -57,6 +57,22 @@ export function CitationTag({ id, chunks }) {
  * CitationText – renders a full text string, replacing [n] with CitationTag
  */
 export function CitationText({ text, chunks }) {
+  // Nếu text là mảng (thường xảy ra khi ReactMarkdown truyền vào children hỗn hợp)
+  if (Array.isArray(text)) {
+    return (
+      <span>
+        {text.map((item, i) => (
+          <CitationText key={i} text={item} chunks={chunks} />
+        ))}
+      </span>
+    )
+  }
+
+  // Nếu không phải string (ví dụ là React element), render trực tiếp
+  if (typeof text !== 'string') {
+    return <span>{text}</span>
+  }
+
   const parts = parseCitations(text, chunks)
   return (
     <span>

@@ -54,10 +54,16 @@ class Generation:
                       "Hệ thống chạy ở chế độ không có LLM (chỉ retrieval).")
                 Generation._llm = None
             else:
+                import multiprocessing
+                # Tự động lấy số core vật lý (thường là 8 trên M1/M2)
+                threads = max(multiprocessing.cpu_count() // 2, 4)
+                
                 Generation._llm = Llama(
                     model_path=str(model_path),
-                    n_gpu_layers=-1,
+                    n_gpu_layers=-1, # Metal on Mac
                     n_ctx=4096,
+                    n_threads=threads,
+                    flash_attn=True, # Tăng tốc độ xử lý context
                     verbose=False
                 )
         self.llm = Generation._llm
@@ -111,6 +117,20 @@ class Generation:
             self.redis.set(failure_key, 0)
             
         return answer
+
+    def generate_raw(self, prompt: str) -> str:
+        """Sinh văn bản trực tiếp không qua cache context, dùng cho rewrite query."""
+        if self.llm is None: return ""
+        try:
+            response = self.llm.create_chat_completion(
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=256,
+                temperature=0.1
+            )
+            return response["choices"][0]["message"]["content"]
+        except Exception as e:
+            print(f"[Generation] Lỗi sinh văn bản raw: {e}")
+            return ""
 
     def generate_stream(self, query: str, session_id: str = "default"):
         """
