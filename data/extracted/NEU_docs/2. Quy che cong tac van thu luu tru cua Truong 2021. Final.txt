@@ -2,7 +2,7 @@ BỘ GIÁO DỤC VÀ ĐÀO TẠO CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
 TRƯỜNG ĐẠI HỌC Độc lập - Tự do - Hạnh phúc
 KINH TẾ QUỐC DÂN
-Số: 2269/QĐ-ĐHKTQD Hà Nội, ngày 12 tháng 11 [mười một] năm 2021
+Số: 2269/QĐ-ĐHKTQD Hà Nội, ngày 12 tháng 11 năm 2021
 QUYẾT ĐỊNH
 
 Về việc ban hành Quy chế công tác Văn thư, lưu trữ
@@ -12,17 +12,17 @@ HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC KINH TẾ QUỐC DÂN
 
 Căn cứ Luật lưu trữ ngày 11/11/2011;
 
-Căn cứ Luật Giáo dục [đục → dục] đại học ngày 18/6/2012 và Luật sửa đổi [đối → đổi], bổ sung [bố Sung → bổ sung] một số điều của Luật Giáo dục đại học ngày 19/11/2018;
+Căn cứ Luật Giáo dục đại học ngày 18/6/2012 và Luật sửa đổi, bổ sung một số điều của Luật Giáo dục đại học ngày 19/11/2018;
 
 Căn cứ Nghị định số 99/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về quản lý và sử dụng con dấu;
 
-Căn cứ Nghị định số 99/2019/NĐ-CP ngày 30/12/2019 của Chính phủ [phú → phủ] về quy định chi tiết [chỉ tiết → chi tiết] và hướng dẫn thi hành [thị hành → thi hành] một số điều của Luật [luật → Luật] sửa đổi [đối → đổi], bổ sung [bổ Sung → bổ sung] một số điều [điểu → điều] của Luật Giáo dục đại học;
+Căn cứ Nghị định số 99/2019/NĐ-CP ngày 30/12/2019 của Chính phủ về quy định chi tiết và hướng dẫn thi hành [thị hành → thi hành] một số điều của Luật sửa đổi, bổ sung một số điều [điểu → điều] của Luật Giáo dục đại học;
 
 Căn cứ Nghị định số 30/2020/NĐ-CP ngày 05/3/2020 của Chính phủ về công tác văn thư;
 
-Căn cứ Thông tư [Thông tế → Thông tư] số 27/2016/TT-BGDĐT ngày 30/12/2016 của Bộ Giáo dục và Đào tạo về việc quy định thời hạn bảo quản tài liệu chuyên môn nghiệp vụ của ngành Giáo dục;
+Căn cứ Thông tư số 27/2016/TT-BGDĐT ngày 30/12/2016 của Bộ Giáo dục và Đào tạo về việc quy định thời hạn bảo quản tài liệu chuyên môn nghiệp vụ của ngành Giáo dục;
 
-Căn cứ Quy chế Tổ chức [TỔ chức → Tổ chức] và Hoạt động của Trường [Truờng → Trường] Đại học Kinh tế Quốc dân ban hành kèm theo Nghị quyết số 09/NQ-ĐHKTQD-HĐT [ĐHKTOD → ĐHKTQD] ngày 09/3/2021 của Chủ tịch Hội đồng Trường Đại học Kinh tế [kinh tễ → Kinh tế] Quốc dân;
+Căn cứ Quy chế Tổ chức và Hoạt động của Trường Đại học Kinh tế Quốc dân ban hành kèm theo Nghị quyết số 09/NQ-ĐHKTQD-HĐT ngày 09/3/2021 của Chủ tịch Hội đồng Trường Đại học Kinh tế Quốc dân;
 
 Theo đề nghị của Trưởng phòng Tổng hợp.
 
@@ -36,7 +36,7 @@ QUYẾT ĐỊNH:
 
 Nơi nhận: HIỆU TRƯỞNG
 
-ĐU, HĐT, BGH (để chỉ đạo thực hiện [t/h]);
+ĐU, HĐT, BGH (để chỉ đạo thực hiện);
 Như Điều 3;
 Lưu: VT, TH.
 (đã ký)
@@ -47,14 +47,14 @@ KINH TẾ QUỐC DÂN
 
 QUY CHẾ
 Công tác Văn thư, lưu trữ của Trường Đại học Kinh tế Quốc dân
-*(Kèm theo Quyết định số: 2269/QĐ-ĐHKTQD, ngày 12 tháng 11 năm 2021 của Hiệu trưởng Trường [Trưởng → Trường] Đại học Kinh tế Quốc dân)*
+*(Kèm theo Quyết định số: 2269/QĐ-ĐHKTQD, ngày 12 tháng 11 năm 2021 của Hiệu trưởng Trường Đại học Kinh tế Quốc dân)*
 
 Chương I
 QUY ĐỊNH CHUNG
 
 Điều 1. Phạm vi áp dụng và đối tượng áp dụng
 
-Quy chế này quy định về công tác văn thư lưu trữ và quản lý công tác văn thư lưu trữ của Trường Đại học Kinh tế Quốc dân (sau đây gọi tắt là Trường). Công tác văn thư lưu trữ quy định tại Quy chế này bao gồm [bảo gồm → bao gồm]: Soạn thảo, ký ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp hồ sơ [hỗ sơ → hồ sơ], tài liệu vào Lưu trữ của Trường; quản lý và sử dụng con dấu, thiết bị lưu khóa bí mật trong công tác văn thư, lưu trữ của Trường.
+Quy chế này quy định về công tác văn thư lưu trữ và quản lý công tác văn thư lưu trữ của Trường Đại học Kinh tế Quốc dân (sau đây gọi tắt là Trường). Công tác văn thư lưu trữ quy định tại Quy chế này bao gồm: Soạn thảo, ký ban hành văn bản; quản lý văn bản; lập hồ sơ và nộp hồ sơ, tài liệu vào Lưu trữ của Trường; quản lý và sử dụng con dấu, thiết bị lưu khóa bí mật trong công tác văn thư, lưu trữ của Trường.
 Quy chế này áp dụng thống nhất trong các đơn vị, tổ chức thuộc, trực thuộc Trường (sau đây được gọi tắt là các đơn vị trong Trường) và các tập thể, cá nhân liên quan.
 Điều 2. Giải thích từ ngữ
 

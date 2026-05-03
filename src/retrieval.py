@@ -156,7 +156,7 @@ if __name__ == "__main__":
     
     print(f"Query: {query}")
     print(f"Filters: {filters}")
-    print(f"Alpha: 0.5 (Cân bằng)")
+    print(f"Alpha: 0.4 (Cân bằng)")
     
     results = retriever1.search(query, filter_dict=filters, top_k=3, alpha=0.5)
     

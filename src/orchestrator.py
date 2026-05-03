@@ -110,114 +110,113 @@ CÂU HỎI ĐỘC LẬP:"""
             standalone_query = self._generate_standalone_query(query, chat_history)
             self.logger.info(f"Standalone Query: {standalone_query}")
 
-            # Trace
-            try:
-                self.tracer.create_trace(name="RAG Query", feature="QA", model="qwen2.5-7b", session_id=session_id)
-            except Exception as e:
-                self.logger.warning(f"Tracing error: {e}")
-
-            # ── Step 1: Retrieval ─────────────────────────────────────────
-            yield json.dumps({"type": "step", "message": "🔍 Đang tìm kiếm tài liệu liên quan..."})
-            start_ret = time.time()
-            
-            top_k = 5
-            alpha = 0.4
-            lambda_mult = 0.5
-
-            # Dùng standalone_query để retrieval chính xác hơn
-            results = []
-            for attempt in range(2):
-                try:
-                    # Lưu ý: retriever.search giờ nhận query đã qua xử lý lịch sử
-                    results = self.retriever.search(standalone_query, chat_history=None, filter_dict=filter_dict, top_k=top_k, alpha=alpha)
-                    break
-                except Exception as e:
-                    err_msg = str(e)
-                    if "too_many_pings" in err_msg or "GOAWAY" in err_msg or "Fail connecting" in err_msg:
-                        self.logger.warning(f"Milvus connection issue (Attempt {attempt+1}): {e}. Re-initializing client...")
-                        try:
-                            from pymilvus import MilvusClient
-                            self.retriever.client = MilvusClient(uri=self.retriever.db_uri)
-                        except: pass
-                        time.sleep(1.5)
-                    else:
-                        raise e
-            
-            retrieval_time = round(time.time() - start_ret, 3)
-            contexts_for_ragas = [chunk["content"] for chunk in results]
-
-            # ── Step 2: MMR Rerank ────────────────────────────────────────
-            yield json.dumps({"type": "step", "message": "📊 Đang xếp hạng và lọc thông tin..."})
-            start_rerank = time.time()
-
-            # Rerank dựa trên query gốc để giữ tính phù hợp cao nhất với mong muốn cuối cùng của user
-            reranked = self.formatter.mmr_rerank(query, results, lambda_mult)
-            reordered = self.formatter.lost_in_the_middle_reorder(reranked)
-            enriched_chunks = self._enrich_chunks(reordered)
-            
-            rerank_time = round(time.time() - start_rerank, 3)
-
-            # Gửi sources ngay sau khi có để frontend render Citations panel
-            yield json.dumps({"type": "sources", "chunks": enriched_chunks})
-
-            # Tạo markdown context cho LLM
-            markdown_context = self.formatter.format_to_markdown(reordered)
-            self.generator.cache_context(session_id, markdown_context)
-
-            # ── Step 3: Generation (streaming tokens) ────────────────────
-            yield json.dumps({"type": "step", "message": "🤖 Đang tổng hợp câu trả lời..."})
-            start_gen = time.time()
-
-            full_answer = ""
-            for token in self.generator.generate_stream(query, session_id):
-                full_answer += token
-                yield json.dumps({"type": "token", "content": token})
-            
-            generation_time = round(time.time() - start_gen, 3)
-            total_time = round(time.time() - start_total, 3)
-
-            # ── Step 4: Latency Logging ────────────────────────────────────
-            metrics = {
-                "retrieval_sec": retrieval_time,
-                "rerank_sec": rerank_time,
-                "generation_sec": generation_time,
-                "total_sec": total_time
-            }
-            self._log_latency(session_id, metrics)
-
-            # ── Step 5: Lưu Redis + MongoDB ────────────────────────────────
-            try:
-                redis_client.rpush(history_key, f"User: {query}")
-                redis_client.rpush(history_key, f"AI: {full_answer}")
-                redis_client.expire(history_key, 86400)
-
-                self.logs_collection.insert_one({
-                    "session_id": session_id,
-                    "query": query,
-                    "answer": full_answer,
-                    "contexts": contexts_for_ragas,
-                    "timestamp": datetime.now(),
-                    "filters": filter_dict,
-                    "latency": metrics
-                })
-                self.logger.info(f"Pipeline finished in {total_time}s")
-            except Exception as e:
-                self.logger.error(f"Save history failed: {e}")
-
-            # ── Done event ────────────────────────────────────────────────
-            yield json.dumps({
-                "type": "done",
-                "answer": full_answer,
-                "chunks": enriched_chunks,
-            })
-
-            if self.tracer:
-                try: self.tracer.flush()
-                except: pass
+            # ── Tracing Context ───────────────────────────────────────────
+            # Dùng pattern modern đã được đóng gói trong RAGTracer
+            with self.tracer.observe(
+                name="RAG Query",
+                input=query,
+                session_id=session_id,
+                metadata={"feature": "QA", "model": "qwen2.5-7b"}
+            ):
+                yield from self._run_pipeline(query, session_id, standalone_query, redis_client, history_key, filter_dict, start_total)
 
         except Exception as e:
             self.logger.error(f"Pipeline error: {e}", exc_info=True)
             yield json.dumps({"type": "error", "message": str(e)})
+
+    def _run_pipeline(self, query, session_id, standalone_query, redis_client, history_key, filter_dict, start_total):
+        # ── Step 1: Retrieval ─────────────────────────────────────────
+        yield json.dumps({"type": "step", "message": "🔍 Đang tìm kiếm tài liệu liên quan..."})
+        start_ret = time.time()
+        
+        top_k = 5
+        alpha = 0.4
+        lambda_mult = 0.5
+
+        results = []
+        for attempt in range(2):
+            try:
+                results = self.retriever.search(standalone_query, chat_history=None, filter_dict=filter_dict, top_k=top_k, alpha=alpha)
+                break
+            except Exception as e:
+                err_msg = str(e)
+                if "too_many_pings" in err_msg or "GOAWAY" in err_msg or "Fail connecting" in err_msg:
+                    self.logger.warning(f"Milvus connection issue (Attempt {attempt+1}): {e}. Re-initializing client...")
+                    try:
+                        from pymilvus import MilvusClient
+                        self.retriever.client = MilvusClient(uri=self.retriever.db_uri)
+                    except: pass
+                    time.sleep(1.5)
+                else:
+                    raise e
+        
+        retrieval_time = round(time.time() - start_ret, 3)
+        contexts_for_ragas = [chunk["content"] for chunk in results]
+
+        # ── Step 2: MMR Rerank ────────────────────────────────────────
+        yield json.dumps({"type": "step", "message": "📊 Đang xếp hạng và lọc thông tin..."})
+        start_rerank = time.time()
+
+        reranked = self.formatter.mmr_rerank(query, results, lambda_mult)
+        reordered = self.formatter.lost_in_the_middle_reorder(reranked)
+        enriched_chunks = self._enrich_chunks(reordered)
+        
+        rerank_time = round(time.time() - start_rerank, 3)
+        yield json.dumps({"type": "sources", "chunks": enriched_chunks})
+
+        markdown_context = self.formatter.format_to_markdown(reordered)
+        self.generator.cache_context(session_id, markdown_context)
+
+        # ── Step 3: Generation (streaming tokens) ────────────────────
+        yield json.dumps({"type": "step", "message": "🤖 Đang tổng hợp câu trả lời..."})
+        start_gen = time.time()
+
+        full_answer = ""
+        for token in self.generator.generate_stream(query, session_id):
+            full_answer += token
+            yield json.dumps({"type": "token", "content": token})
+        
+        generation_time = round(time.time() - start_gen, 3)
+        total_time = round(time.time() - start_total, 3)
+
+        # ── Step 4: Latency Logging ────────────────────────────────────
+        metrics = {
+            "retrieval_sec": retrieval_time,
+            "rerank_sec": rerank_time,
+            "generation_sec": generation_time,
+            "total_sec": total_time
+        }
+        self._log_latency(session_id, metrics)
+
+        # ── Step 5: Lưu Redis + MongoDB ────────────────────────────────
+        try:
+            redis_client.rpush(history_key, f"User: {query}")
+            redis_client.rpush(history_key, f"AI: {full_answer}")
+            redis_client.expire(history_key, 86400)
+
+            self.logs_collection.insert_one({
+                "session_id": session_id,
+                "query": query,
+                "answer": full_answer,
+                "contexts": contexts_for_ragas,
+                "timestamp": datetime.now(),
+                "filters": filter_dict,
+                "latency": metrics
+            })
+            self.logger.info(f"Pipeline finished in {total_time}s")
+        except Exception as e:
+            self.logger.error(f"Save history failed: {e}")
+
+        # ── Done event ────────────────────────────────────────────────
+        yield json.dumps({
+            "type": "done",
+            "answer": full_answer,
+            "chunks": enriched_chunks,
+        })
+
+        if self.tracer:
+            try: self.tracer.flush()
+            except: pass
 
     def ask(self, query: str, session_id: str, filter_dict: dict = None) -> str:
         full_answer = ""
