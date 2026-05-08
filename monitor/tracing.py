@@ -1,32 +1,23 @@
 import os
 from dotenv import load_dotenv
-from typing import Optional
-from langfuse import Langfuse
-from langfuse.decorators import observe, langfuse_context
+from langfuse import observe, get_client
 
 load_dotenv()
 
-# ─── Khởi tạo Langfuse client singleton ──────────────────────────────────────
-# @observe sẽ tự động dùng client này thông qua langfuse_context
+# ─── Kiểm tra cấu hình môi trường ────────────────────────────────────────────
+# Langfuse v3+ tự động đọc từ biến môi trường:
+#   LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_HOST
 _pk   = (os.getenv("LANGFUSE_PUBLIC_KEY", "") or "").strip('"\'')
 _sk   = (os.getenv("LANGFUSE_SECRET_KEY", "") or "").strip('"\'')
 _host = (os.getenv("LANGFUSE_HOST") or os.getenv("LANGFUSE_BASE_URL") or "https://cloud.langfuse.com").strip('"\'')
 
-langfuse = None
 if _pk and _sk:
-    try:
-        langfuse = Langfuse(public_key=_pk, secret_key=_sk, host=_host)
-        print(f"[Tracing] Langfuse đã sẵn sàng → {_host}")
-    except Exception as e:
-        print(f"[Tracing] Không thể khởi tạo Langfuse: {e}")
+    print(f"[Tracing] Langfuse đã sẵn sàng → {_host}")
 else:
     print("[Tracing] Thiếu LANGFUSE_PUBLIC_KEY hoặc LANGFUSE_SECRET_KEY trong .env")
 
 
-# ─── Decorator helpers (5 observation types) ────────────────────────────────
-#
-#  Langfuse hỗ trợ 5 loại observation type. Dùng đúng type giúp dashboard
-#  phân loại, lọc và tính chi phí chính xác hơn.
+# ─── Decorator helpers (5 observation types) ─────────────────────────────────
 #
 #  ┌─────────────┬──────────────────────────────────────────────────────────┐
 #  │ as_type     │ Dùng khi nào                                             │
@@ -35,14 +26,25 @@ else:
 #  │ generation  │ Gọi LLM → hiện token usage, model, cost trên dashboard   │
 #  │ retriever   │ Tìm kiếm tài liệu từ vector DB (Milvus hybrid search)    │
 #  │ embedding   │ Tạo vector embedding cho query hoặc document             │
-#  │ chain       │ Nhóm nhiều step thành sub-pipeline (retrieve→rerank)     │
+#  │ chain       │ Nhóm nhiều step thành sub-pipeline, dùng cho root trace  │
 #  └─────────────┴──────────────────────────────────────────────────────────┘
+#
+# Cách dùng trong orchestrator:
+#
+#   client = get_client()
+#   with client.start_as_current_span(name="step", as_type="span") as span:
+#       span.update(input="...", output="...", metadata={...})
+#
+# Hoặc dùng decorator @observe cho root function:
+#
+#   @observe(as_type="chain")
+#   def ask_stream(self, ...):
+#       ...
 
 def trace_span(name: str):
     """
     [SPAN] Bước xử lý logic chung không phải LLM call hay DB call đặc thù.
-    Ví dụ: query_rewriting (logic), mmr_reranking, lost_in_middle_reorder,
-           save_history, post-processing.
+    Ví dụ: query_rewriting (logic), mmr_reranking, save_history.
     """
     return observe(name=name, as_type="span")
 
@@ -76,55 +78,18 @@ def trace_embedding(name: str):
 
 def trace_chain(name: str):
     """
-    [CHAIN] Nhóm nhiều step liên quan thành một sub-pipeline có thể tái sử dụng.
-    Dùng để gom nhóm các bước liên quan lại, giúp trace dễ đọc hơn trên dashboard.
-    Ví dụ: retrieval_chain (embedding → search → rerank), rag_pipeline (root).
+    [CHAIN] Root trace bao toàn bộ pipeline RAG.
+    Gom nhóm tất cả sub-steps thành một chain duy nhất trên dashboard.
+    Ví dụ: rag_pipeline (ask_stream).
     """
     return observe(name=name, as_type="chain")
 
 
-# ─── Utility để cập nhật metadata trong lúc chạy ─────────────────────────────
-
-def update_current_observation(**kwargs):
-    """
-    Gọi bên trong một hàm đã được @observe để cập nhật metadata/input/output
-    của observation hiện tại trong runtime.
-
-    Ví dụ:
-        update_current_observation(
-            output="...",
-            metadata={"latency_ms": 120},
-            usage={"input": 150, "output": 300}
-        )
-    """
-    try:
-        langfuse_context.update_current_observation(**kwargs)
-    except Exception:
-        pass  # Không làm crash pipeline nếu Langfuse lỗi
-
-
-def update_current_trace(**kwargs):
-    """
-    Cập nhật metadata của root trace (session_id, user_id, tags, metadata).
-
-    Ví dụ:
-        update_current_trace(
-            session_id="abc-123",
-            user_id="user-456",
-            tags=["prod", "qwen2.5-7b", "QA"],
-            metadata={"env": "prod", "tier": "free"}
-        )
-    """
-    try:
-        langfuse_context.update_current_trace(**kwargs)
-    except Exception:
-        pass
-
+# ─── Flush ────────────────────────────────────────────────────────────────────
 
 def flush():
     """Đẩy toàn bộ trace còn pending lên Langfuse server trước khi app tắt."""
-    if langfuse:
-        try:
-            langfuse.flush()
-        except Exception as e:
-            print(f"[Tracing] Lỗi khi flush: {e}")
+    try:
+        get_client().flush()
+    except Exception as e:
+        print(f"[Tracing] Lỗi khi flush: {e}")

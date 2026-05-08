@@ -3,13 +3,10 @@ from src.rerank_and_format_chunks import RerankerAndFormatter
 from src.generation import Generation
 from database.connection import DatabaseManager
 from monitor.logging import get_logger
-from monitor.tracing import (
-    trace_span, trace_generation, trace_retriever, trace_chain,
-    update_current_observation, update_current_trace,
-    flush as langfuse_flush
-)
+from monitor.tracing import flush as langfuse_flush
+from langfuse import observe, get_client
 from datetime import datetime
-from typing import List, Dict, Any, Generator
+from typing import List, Dict, Generator
 import json
 import time
 import os
@@ -67,23 +64,22 @@ class Orchestrator:
 
     # ─── Step 0: Query Rewriting ──────────────────────────────────────────────
 
-    @trace_span("query_rewriting")
     def _generate_standalone_query(self, query: str, chat_history: List[str]) -> str:
         """
         [SPAN] Dùng LLM viết lại câu hỏi thành standalone query (De-contextualization).
-        observation type = span (bước tiền xử lý, không phải gọi LLM trực tiếp).
         """
-        update_current_observation(
-            input={"query": query, "history_len": len(chat_history)},
-            metadata={"step": "query_rewriting"}
-        )
+        client = get_client()
+        with client.start_as_current_observation(
+            name="query_rewriting",
+            as_type="span",
+            input={"query": query, "history_len": len(chat_history)}
+        ) as span:
+            if not chat_history:
+                span.update(output=query, metadata={"rewritten": False})
+                return query
 
-        if not chat_history:
-            update_current_observation(output=query)
-            return query
-
-        history_text = "\n".join(chat_history)
-        prompt = f"""Dựa vào lịch sử hội thoại dưới đây và câu hỏi mới nhất, hãy viết lại câu hỏi mới nhất thành một câu hỏi độc lập (standalone query) chứa đầy đủ ngữ cảnh để có thể dùng tìm kiếm trong tài liệu quy chế.
+            history_text = "\n".join(chat_history)
+            prompt = f"""Dựa vào lịch sử hội thoại dưới đây và câu hỏi mới nhất, hãy viết lại câu hỏi mới nhất thành một câu hỏi độc lập (standalone query) chứa đầy đủ ngữ cảnh để có thể dùng tìm kiếm trong tài liệu quy chế.
 Nếu câu hỏi đã đủ rõ ràng, hãy giữ nguyên.
 CHỈ TRẢ VỀ CÂU HỎI ĐÃ VIẾT LẠI, KHÔNG GIẢI THÍCH GÌ THÊM.
 
@@ -93,178 +89,167 @@ LỊCH SỬ:
 CÂU HỎI MỚI: {query}
 CÂU HỎI ĐỘC LẬP:"""
 
-        try:
-            standalone = self.generator.generate_raw(prompt)
-            result = standalone.strip() if standalone else query
-        except Exception as e:
-            self.logger.warning(f"[Orchestrator] Lỗi khi viết lại query: {e}")
-            result = f"{' '.join(chat_history[-1:])} {query}"
+            try:
+                standalone = self.generator.generate_raw(prompt)
+                result = standalone.strip() if standalone else query
+            except Exception as e:
+                self.logger.warning(f"[Orchestrator] Lỗi khi viết lại query: {e}")
+                result = f"{' '.join(chat_history[-1:])} {query}"
 
-        update_current_observation(output=result)
-        return result
+            span.update(output=result, metadata={"rewritten": result != query})
+            return result
 
     # ─── Step 1: Retrieval ────────────────────────────────────────────────────
 
-    @trace_retriever("milvus_hybrid_search")
     def _retrieve(self, standalone_query: str, filter_dict: dict,
                   top_k: int = 5, alpha: float = 0.4) -> List[Dict]:
         """
         [RETRIEVER] Hybrid search trên Milvus (Dense + Sparse).
-        Langfuse sẽ hiển thị: query, documents trả về, số lượng kết quả.
         """
-        update_current_observation(
-            input={"query": standalone_query, "top_k": top_k, "alpha": alpha},
-            metadata={"step": "retrieval", "filter": filter_dict}
-        )
+        client = get_client()
+        with client.start_as_current_observation(
+            name="milvus_hybrid_search",
+            as_type="retriever",
+            input={"query": standalone_query, "top_k": top_k, "alpha": alpha, "filter": filter_dict}
+        ) as span:
+            results = []
+            for attempt in range(2):
+                try:
+                    results = self.retriever.search(
+                        standalone_query,
+                        chat_history=None,
+                        filter_dict=filter_dict,
+                        top_k=top_k,
+                        alpha=alpha
+                    )
+                    break
+                except Exception as e:
+                    err_msg = str(e)
+                    if any(k in err_msg for k in ["too_many_pings", "GOAWAY", "Fail connecting"]):
+                        self.logger.warning(f"Milvus connection issue (Attempt {attempt+1}): {e}. Re-initializing...")
+                        try:
+                            from pymilvus import MilvusClient
+                            self.retriever.client = MilvusClient(uri=self.retriever.db_uri)
+                        except Exception:
+                            pass
+                        time.sleep(1.5)
+                    else:
+                        raise
 
-        results = []
-        for attempt in range(2):
-            try:
-                results = self.retriever.search(
-                    standalone_query,
-                    chat_history=None,
-                    filter_dict=filter_dict,
-                    top_k=top_k,
-                    alpha=alpha
-                )
-                break
-            except Exception as e:
-                err_msg = str(e)
-                if any(k in err_msg for k in ["too_many_pings", "GOAWAY", "Fail connecting"]):
-                    self.logger.warning(f"Milvus connection issue (Attempt {attempt+1}): {e}. Re-initializing...")
-                    try:
-                        from pymilvus import MilvusClient
-                        self.retriever.client = MilvusClient(uri=self.retriever.db_uri)
-                    except Exception:
-                        pass
-                    time.sleep(1.5)
-                else:
-                    raise
-
-        update_current_observation(
-            output={"num_chunks": len(results)},
-            metadata={"top_k": top_k, "alpha": alpha}
-        )
-        return results
+            span.update(
+                output={"num_chunks": len(results)},
+                metadata={"top_k": top_k, "alpha": alpha}
+            )
+            return results
 
     # ─── Step 2: Reranking ────────────────────────────────────────────────────
 
-    @trace_span("mmr_reranking")
     def _rerank(self, query: str, results: List[Dict], lambda_mult: float = 0.5) -> List[Dict]:
         """
         [SPAN] MMR Rerank + Lost-in-the-Middle reorder.
-        observation type = span (thuật toán xếp hạng, không phải LLM call).
         """
-        update_current_observation(
-            input={"query": query, "num_candidates": len(results), "lambda_mult": lambda_mult},
-            metadata={"step": "mmr_reranking"}
-        )
-
-        reranked = self.formatter.mmr_rerank(query, results, lambda_mult)
-        reordered = self.formatter.lost_in_the_middle_reorder(reranked)
-
-        update_current_observation(output={"num_reranked": len(reordered)})
-        return reordered
+        client = get_client()
+        with client.start_as_current_observation(
+            name="mmr_reranking",
+            as_type="span",
+            input={"query": query, "num_candidates": len(results), "lambda_mult": lambda_mult}
+        ) as span:
+            reranked  = self.formatter.mmr_rerank(query, results, lambda_mult)
+            reordered = self.formatter.lost_in_the_middle_reorder(reranked)
+            span.update(output={"num_reranked": len(reordered)})
+            return reordered
 
     # ─── Step 3: Generation ───────────────────────────────────────────────────
 
-    @trace_generation("llm_generation")
-    def _generate(self, query: str, session_id: str) -> Generator:
+    def _generate(self, query: str, session_id: str):
         """
         [GENERATION] Stream tokens từ LLM (Ollama / Qwen2.5-7B).
-        observation type = generation → Langfuse sẽ hiển thị token usage, model name.
-        Trả về (full_answer, generation_time_s).
+        Yields từng token ra ngoài để SSE stream.
         """
-        update_current_observation(
+        client = get_client()
+        with client.start_as_current_observation(
+            name="llm_generation",
+            as_type="generation",
             input=query,
-            model="qwen2.5-7b",
-            metadata={"step": "llm_generation", "session_id": session_id}
-        )
+            model="qwen2.5-7b"
+        ) as span:
+            start = time.time()
+            full_answer = ""
+            tokens_out  = 0
 
-        start = time.time()
-        full_answer = ""
-        tokens_out = 0
+            for token in self.generator.generate_stream(query, session_id):
+                full_answer += token
+                tokens_out  += 1
+                yield token
 
-        for token in self.generator.generate_stream(query, session_id):
-            full_answer += token
-            tokens_out += 1
-            yield token  # trả token ra ngoài để SSE stream
-
-        generation_time = round(time.time() - start, 3)
-
-        # Cập nhật usage để Langfuse hiển thị token count
-        update_current_observation(
-            output=full_answer,
-            usage={"output": tokens_out},
-            metadata={"latency_ms": int(generation_time * 1000)}
-        )
+            generation_time = round(time.time() - start, 3)
+            span.update(
+                output=full_answer,
+                usage_details={"output": tokens_out},
+                metadata={"latency_ms": int(generation_time * 1000)}
+            )
 
     # ─── Step 4: Save History ─────────────────────────────────────────────────
 
-    @trace_span("save_history")
     def _save_history(self, session_id: str, query: str, full_answer: str,
                       contexts: List[str], filter_dict: dict, metrics: Dict):
         """
         [SPAN] Lưu lịch sử vào Redis + MongoDB.
-        observation type = span (I/O storage).
         """
-        update_current_observation(
-            input={"session_id": session_id, "query": query},
-            metadata={"step": "save_history"}
-        )
-        try:
-            redis_client = self.db_manager.get_redis()
-            history_key = f"session:{session_id}:history"
-            redis_client.rpush(history_key, f"User: {query}")
-            redis_client.rpush(history_key, f"AI: {full_answer}")
-            redis_client.expire(history_key, 86400)
+        client = get_client()
+        with client.start_as_current_observation(
+            name="save_history",
+            as_type="span",
+            input={"session_id": session_id, "query": query}
+        ) as span:
+            try:
+                redis_client = self.db_manager.get_redis()
+                history_key  = f"session:{session_id}:history"
+                redis_client.rpush(history_key, f"User: {query}")
+                redis_client.rpush(history_key, f"AI: {full_answer}")
+                redis_client.expire(history_key, 86400)
 
-            self.logs_collection.insert_one({
-                "session_id": session_id,
-                "query": query,
-                "answer": full_answer,
-                "contexts": contexts,
-                "timestamp": datetime.now(),
-                "filters": filter_dict,
-                "latency": metrics
-            })
-            update_current_observation(output={"status": "ok"})
-        except Exception as e:
-            self.logger.error(f"Save history failed: {e}")
-            update_current_observation(
-                output={"status": "error", "error": str(e)},
-                level="ERROR"
-            )
+                self.logs_collection.insert_one({
+                    "session_id": session_id,
+                    "query":      query,
+                    "answer":     full_answer,
+                    "contexts":   contexts,
+                    "timestamp":  datetime.now(),
+                    "filters":    filter_dict,
+                    "latency":    metrics
+                })
+                span.update(output={"status": "ok"})
+            except Exception as e:
+                self.logger.error(f"Save history failed: {e}")
+                span.update(
+                    output={"status": "error", "error": str(e)},
+                    level="ERROR"
+                )
 
     # ─── Root trace: ask_stream ───────────────────────────────────────────────
 
-    @trace_chain("rag_pipeline")
+    @observe(as_type="chain", name="rag_pipeline")
     def ask_stream(self, query: str, session_id: str, filter_dict: dict = None) -> Generator:
         """
         [CHAIN root] Generator cho SSE streaming.
-        Gom toàn bộ sub-steps (query_rewrite → retriever → rerank → generation → save)
-        thành một chain duy nhất, dễ đọc trên Langfuse dashboard.
-        """
-        # Gắn metadata trace-level (env, tier, model, session, feature)
-        update_current_trace(
-            session_id=session_id,
-            tags=["prod", "qwen2.5-7b", "QA", "free"],
-            metadata={
-                "env": os.getenv("ENV", "dev"),
-                "tier": "free",
-                "model": "qwen2.5-7b",
-                "feature": "QA"
-            }
-        )
-        update_current_observation(input={"query": query, "filter": filter_dict})
+        @observe(as_type='chain') tạo root trace bao toàn bộ pipeline.
+        Các sub-steps dùng start_as_current_observation để tạo child spans lồng bên trong.
 
+        Observation type mapping:
+            ask_stream                → chain      (root)
+            _generate_standalone_query → span
+            _retrieve                 → retriever
+            _rerank                   → span
+            _generate                 → generation
+            _save_history             → span
+        """
         try:
             start_total = time.time()
             self.logger.info(f"New query received: {query}", extra={"model": "qwen2.5-7b"})
 
             # Lấy chat history từ Redis
             redis_client = self.db_manager.get_redis()
-            history_key = f"session:{session_id}:history"
+            history_key  = f"session:{session_id}:history"
             chat_history = []
             try:
                 chat_history = [x.decode("utf-8") for x in redis_client.lrange(history_key, -4, -1)]
@@ -309,22 +294,16 @@ CÂU HỎI ĐỘC LẬP:"""
             total_time = round(time.time() - start_total, 3)
             metrics = {
                 "query_rewrite_sec": qr_time,
-                "retrieval_sec": retrieval_time,
-                "rerank_sec": rerank_time,
-                "generation_sec": generation_time,
-                "total_sec": total_time
+                "retrieval_sec":     retrieval_time,
+                "rerank_sec":        rerank_time,
+                "generation_sec":    generation_time,
+                "total_sec":         total_time
             }
             self._log_latency(session_id, metrics)
 
             # ── Step 4: Save History ─────────────────────────────────────────
             self._save_history(session_id, query, full_answer,
                                contexts_for_ragas, filter_dict, metrics)
-
-            # Cập nhật output của root trace
-            update_current_observation(
-                output={"answer_len": len(full_answer), "total_sec": total_time},
-                metadata=metrics
-            )
 
             self.logger.info(
                 f"Pipeline finished in {total_time}s",
@@ -333,17 +312,13 @@ CÂU HỎI ĐỘC LẬP:"""
 
             # ── Done event ───────────────────────────────────────────────────
             yield json.dumps({
-                "type": "done",
+                "type":   "done",
                 "answer": full_answer,
                 "chunks": enriched_chunks,
             })
 
         except Exception as e:
             self.logger.error(f"Pipeline error: {e}", exc_info=True)
-            update_current_observation(
-                output={"error": str(e)},
-                level="ERROR"
-            )
             yield json.dumps({"type": "error", "message": str(e)})
         finally:
             langfuse_flush()
